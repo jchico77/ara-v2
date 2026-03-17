@@ -1,0 +1,281 @@
+[
+  {
+    "slug": "product-manager",
+    "title": "Product Manager",
+    "archetype": "orquestador",
+    "multiplier": 3.2,
+    "summary": "4 de tus 6 actividades principales se potencian significativamente con IA — pero tu capacidad de priorizar, alinear equipos y tomar decisiones de producto sigue siendo irremplazable.",
+    "blocks": [
+      {
+        "id": "pm-1",
+        "name": "Priorización de backlog",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 72,
+        "brief": "La IA acelera tu análisis de datos para priorizar, pero la decisión final de qué construir sigue siendo tuya.",
+        "detail": "Herramientas como Claude y ChatGPT pueden analizar métricas de uso, feedback de usuarios y tendencias de mercado en minutos. Pero la priorización real requiere juicio sobre estrategia de negocio, deuda técnica y política organizacional — algo que la IA no puede capturar.",
+        "tasks": [
+          { "name": "Análisis de métricas de producto", "exposure": 85, "direction": "aumentacion" },
+          { "name": "Síntesis de feedback de usuarios", "exposure": 78, "direction": "aumentacion" },
+          { "name": "Decisión de prioridades estratégicas", "exposure": 25, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "pm-2",
+        "name": "Redacción de specs y PRDs",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 88,
+        "brief": "Esto ya lo hace la IA casi igual que tú. Los PRDs generados por IA son cada vez más difíciles de distinguir de los humanos.",
+        "detail": "La generación de documentos de especificación es una de las tareas con mayor exposición a automatización. Claude puede generar PRDs completos a partir de notas de reunión. Tu valor está en la revisión crítica y el contexto que no está en los documentos.",
+        "tasks": [
+          { "name": "Escritura de PRDs", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Documentación de requisitos", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Comunicación de cambios al equipo", "exposure": 40, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "pm-3",
+        "name": "User research y discovery",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 65,
+        "brief": "La IA te permite analizar miles de reseñas en minutos, pero la empatía real con el usuario sigue requiriendo presencia humana.",
+        "detail": "Las herramientas de IA pueden procesar y categorizar grandes volúmenes de feedback cualitativo. Sin embargo, las entrevistas de usuario profundas, la observación contextual y la capacidad de leer entre líneas siguen siendo competencias fundamentalmente humanas.",
+        "tasks": [
+          { "name": "Análisis de feedback a escala", "exposure": 80, "direction": "aumentacion" },
+          { "name": "Entrevistas de usuario", "exposure": 20, "direction": "aumentacion" },
+          { "name": "Síntesis de insights", "exposure": 68, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "pm-4",
+        "name": "Alineación cross-funcional",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 22,
+        "brief": "Aquí eres irremplazable. Alinear ingeniería, diseño, negocio y stakeholders requiere inteligencia política y emocional.",
+        "detail": "La coordinación entre equipos con intereses diferentes es una habilidad profundamente humana. La IA puede preparar materiales y resumir contexto, pero negociar prioridades, gestionar conflictos y construir consenso es tu superpoder.",
+        "tasks": [
+          { "name": "Reuniones de alineación", "exposure": 15, "direction": "aumentacion" },
+          { "name": "Gestión de stakeholders", "exposure": 18, "direction": "aumentacion" },
+          { "name": "Resolución de conflictos de prioridad", "exposure": 12, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "pm-5",
+        "name": "Análisis competitivo",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 75,
+        "brief": "La IA acelera tu investigación competitiva 4x — puedes monitorizar cambios en productos rivales en tiempo real.",
+        "detail": "Claude y GPT-4 pueden analizar páginas de competidores, changelogs, reviews y artículos de prensa para generar informes competitivos comprensivos. Tu valor está en la interpretación estratégica y en conectar esos datos con tu roadmap.",
+        "tasks": [
+          { "name": "Monitorización de competidores", "exposure": 82, "direction": "aumentacion" },
+          { "name": "Análisis de posicionamiento", "exposure": 70, "direction": "aumentacion" },
+          { "name": "Recomendaciones estratégicas", "exposure": 35, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "pm-6",
+        "name": "Presentaciones y storytelling",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 58,
+        "brief": "La IA genera borradores de presentaciones, pero la narrativa que convence al C-level sigue necesitando tu voz.",
+        "detail": "Las herramientas de IA pueden crear slides, resumir datos y sugerir narrativas. Pero la capacidad de adaptar el mensaje a la audiencia, leer la sala y ajustar en tiempo real es una competencia que define a los mejores PMs.",
+        "tasks": [
+          { "name": "Creación de presentaciones", "exposure": 72, "direction": "aumentacion" },
+          { "name": "Narrativa estratégica", "exposure": 35, "direction": "aumentacion" },
+          { "name": "Presentación a ejecutivos", "exposure": 20, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "abogado",
+    "title": "Abogado Corporativo",
+    "archetype": "estratega",
+    "multiplier": 2.4,
+    "summary": "3 de tus 6 actividades se transforman con IA, pero la barrera regulatoria, el juicio legal y la responsabilidad profesional protegen el núcleo de tu trabajo.",
+    "blocks": [
+      {
+        "id": "law-1",
+        "name": "Revisión de contratos",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 82,
+        "brief": "La IA revisa contratos estándar casi tan bien como un junior. Los contratos complejos aún necesitan tu criterio.",
+        "detail": "Las herramientas de IA legal como Harvey y Claude pueden revisar contratos estándar, identificar cláusulas problemáticas y sugerir modificaciones. Para contratos complejos con implicaciones multijurisdiccionales, tu experiencia sigue siendo crítica.",
+        "tasks": [
+          { "name": "Revisión de cláusulas estándar", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Análisis de riesgos contractuales", "exposure": 65, "direction": "aumentacion" },
+          { "name": "Negociación de términos", "exposure": 20, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "law-2",
+        "name": "Investigación jurisprudencial",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 78,
+        "brief": "La IA busca y sintetiza jurisprudencia en minutos — lo que antes te llevaba horas.",
+        "detail": "La búsqueda de precedentes y jurisprudencia es una de las áreas donde la IA tiene mayor impacto en productividad legal. Puedes cubrir más terreno y encontrar precedentes que de otra forma habrías pasado por alto.",
+        "tasks": [
+          { "name": "Búsqueda de precedentes", "exposure": 85, "direction": "aumentacion" },
+          { "name": "Análisis de jurisprudencia", "exposure": 72, "direction": "aumentacion" },
+          { "name": "Síntesis de doctrina", "exposure": 68, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "law-3",
+        "name": "Redacción de documentos legales",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 70,
+        "brief": "La IA genera borradores sólidos, pero el matiz legal y la estrategia detrás del lenguaje siguen siendo tuyos.",
+        "detail": "Claude puede generar borradores de contratos, memorándums y escritos. Pero cada palabra en un documento legal tiene implicaciones — la elección precisa del lenguaje para proteger a tu cliente requiere experiencia y estrategia.",
+        "tasks": [
+          { "name": "Borradores de contratos", "exposure": 80, "direction": "aumentacion" },
+          { "name": "Memorándums internos", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Escritos judiciales", "exposure": 55, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "law-4",
+        "name": "Asesoramiento estratégico a cliente",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 15,
+        "brief": "Aquí eres irremplazable. El cliente paga por tu juicio, tu experiencia y tu accountability.",
+        "detail": "El asesoramiento legal estratégico implica responsabilidad profesional, conocimiento del contexto del cliente, gestión de riesgo y confianza interpersonal. La IA no puede asumir responsabilidad legal ni construir la relación de confianza que sustenta el consejo.",
+        "tasks": [
+          { "name": "Evaluación de riesgo legal", "exposure": 25, "direction": "aumentacion" },
+          { "name": "Consejo estratégico", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Gestión de relación con cliente", "exposure": 8, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "law-5",
+        "name": "Due diligence",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 85,
+        "brief": "La IA procesa data rooms enteros en horas. El due diligence rutinario está siendo automatizado.",
+        "detail": "Las plataformas de IA legal pueden revisar miles de documentos en una data room, identificar cláusulas de cambio de control, obligaciones pendientes y riesgos. El trabajo de revisión masiva que antes requería equipos de asociados se reduce drásticamente.",
+        "tasks": [
+          { "name": "Revisión masiva de documentos", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Identificación de riesgos", "exposure": 78, "direction": "aumentacion" },
+          { "name": "Informe de hallazgos", "exposure": 70, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "law-6",
+        "name": "Negociación y litigación",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 18,
+        "brief": "La sala de negociaciones es tu territorio. La IA prepara tus argumentos, pero tú los ejecutas.",
+        "detail": "La negociación y el litigio requieren lectura de la contraparte, adaptación en tiempo real, persuasión y presencia. La IA puede preparar simulaciones de argumentos y contraargumentos, pero la ejecución es profundamente humana.",
+        "tasks": [
+          { "name": "Preparación de argumentos", "exposure": 55, "direction": "aumentacion" },
+          { "name": "Negociación directa", "exposure": 8, "direction": "aumentacion" },
+          { "name": "Comparecencias", "exposure": 5, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "data-analyst",
+    "title": "Data Analyst",
+    "archetype": "acelerado",
+    "multiplier": 4.1,
+    "summary": "5 de tus 6 actividades se potencian masivamente con IA — eres uno de los perfiles con mayor potencial de multiplicación de productividad.",
+    "blocks": [
+      {
+        "id": "da-1",
+        "name": "Exploración y limpieza de datos",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 90,
+        "brief": "La IA limpia y transforma datasets en segundos. Esta tarea manual está desapareciendo.",
+        "detail": "Las herramientas de código generativo (Claude, Copilot) pueden escribir scripts de limpieza, detectar anomalías y transformar datos con instrucciones en lenguaje natural. Lo que antes era el 60% de tu tiempo se reduce a revisión y validación.",
+        "tasks": [
+          { "name": "Limpieza y transformación de datos", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Detección de anomalías", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Validación de calidad", "exposure": 65, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "da-2",
+        "name": "Análisis estadístico y modelado",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 78,
+        "brief": "La IA escribe el código estadístico, pero interpretar los resultados en contexto de negocio es donde brillas.",
+        "detail": "Claude puede generar análisis de regresión, tests de hipótesis y modelos predictivos. Pero entender qué análisis es relevante, qué variables incluir y cómo interpretar los resultados para el negocio requiere tu conocimiento del dominio.",
+        "tasks": [
+          { "name": "Generación de código analítico", "exposure": 88, "direction": "aumentacion" },
+          { "name": "Selección de modelos", "exposure": 60, "direction": "aumentacion" },
+          { "name": "Interpretación de resultados", "exposure": 35, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "da-3",
+        "name": "Creación de dashboards y visualizaciones",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 75,
+        "brief": "La IA genera visualizaciones básicas al instante. Tu valor está en el diseño que cuenta la historia correcta.",
+        "detail": "Las herramientas de IA pueden crear gráficos y dashboards a partir de datos. Pero diseñar la visualización que resalta el insight correcto, que cuenta la historia que el stakeholder necesita oír, es una habilidad de comunicación y diseño.",
+        "tasks": [
+          { "name": "Generación de gráficos", "exposure": 82, "direction": "aumentacion" },
+          { "name": "Diseño de dashboards", "exposure": 70, "direction": "aumentacion" },
+          { "name": "Narrativa visual de datos", "exposure": 45, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "da-4",
+        "name": "Generación de informes",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 88,
+        "brief": "Los informes rutinarios ya los genera la IA. Tu tiempo se libera para el análisis que importa.",
+        "detail": "Los informes periódicos (semanales, mensuales) con métricas estándar son candidatos perfectos para automatización completa. La IA puede generar narrativas descriptivas y detectar cambios relevantes automáticamente.",
+        "tasks": [
+          { "name": "Informes periódicos", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Resúmenes ejecutivos", "exposure": 82, "direction": "automatizacion" },
+          { "name": "Documentación de metodología", "exposure": 70, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "da-5",
+        "name": "Consultoría interna a equipos",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 28,
+        "brief": "Cuando marketing o producto te pide ayuda para entender sus datos, ahí está tu valor diferencial.",
+        "detail": "La capacidad de traducir entre el lenguaje de los datos y el lenguaje del negocio, de entender qué pregunta realmente está haciendo el stakeholder y de guiarles hacia la decisión correcta, es una competencia relacional que la IA no reemplaza.",
+        "tasks": [
+          { "name": "Traducción datos-negocio", "exposure": 22, "direction": "aumentacion" },
+          { "name": "Definición de KPIs con equipos", "exposure": 30, "direction": "aumentacion" },
+          { "name": "Formación a no-técnicos", "exposure": 15, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "da-6",
+        "name": "Escritura de queries y pipelines",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 92,
+        "brief": "La IA escribe SQL y Python mejor que la mayoría de analistas junior. Esta skill técnica se comoditiza.",
+        "detail": "Claude y Copilot generan queries SQL complejas, scripts de ETL y pipelines de datos con alta precisión. La escritura de código analítico como skill aislada pierde valor — tu diferencial es saber qué preguntar, no cómo escribir la query.",
+        "tasks": [
+          { "name": "Escritura de SQL", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Scripts de ETL", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Optimización de queries", "exposure": 72, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  }
+]
