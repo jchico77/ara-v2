@@ -277,5 +277,1958 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "director-operaciones",
+    "title": "Director de Operaciones",
+    "archetype": "orquestador",
+    "multiplier": 2.8,
+    "summary": "Tu rol orquesta sistemas y personas a gran escala. La IA optimiza tus procesos, pero la visión operativa y el liderazgo que los conecta siguen dependiendo de ti.",
+    "blocks": [
+      {
+        "id": "dop-1",
+        "name": "Optimización de procesos",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 83,
+        "brief": "La IA detecta cuellos de botella y sugiere mejoras antes de que tú los veas en los informes.",
+        "detail": "Los modelos de IA pueden analizar flujos de trabajo completos, identificar ineficiencias y simular escenarios de mejora. La automatización de procesos rutinarios avanza rápido, pero diseñar la arquitectura operativa completa requiere tu visión sistémica.",
+        "tasks": [
+          { "name": "Mapeo de procesos", "exposure": 78, "direction": "automatizacion" },
+          { "name": "Identificación de ineficiencias", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Diseño de nuevos flujos", "exposure": 42, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "dop-2",
+        "name": "Reporting operativo y KPIs",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 87,
+        "brief": "Los dashboards se generan solos. Tu valor está en decidir qué hacer cuando los números no cuadran.",
+        "detail": "La generación automática de informes operativos, alertas y seguimiento de KPIs es una de las áreas con mayor grado de automatización. La IA puede consolidar datos de múltiples fuentes y generar narrativas de rendimiento sin intervención humana.",
+        "tasks": [
+          { "name": "Consolidación de métricas", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Generación de informes periódicos", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Análisis de desviaciones", "exposure": 60, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "dop-3",
+        "name": "Gestión de proveedores y cadena de suministro",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 62,
+        "brief": "La IA monitoriza tu cadena de suministro en tiempo real, pero renegociar con un proveedor sigue siendo cosa tuya.",
+        "detail": "Las herramientas de IA pueden predecir disrupciones, optimizar inventarios y monitorizar el rendimiento de proveedores. Sin embargo, la negociación de contratos, la gestión de relaciones estratégicas y las decisiones de make-or-buy requieren juicio humano.",
+        "tasks": [
+          { "name": "Monitorización de proveedores", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Predicción de disrupciones", "exposure": 70, "direction": "aumentacion" },
+          { "name": "Negociación de contratos", "exposure": 18, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "dop-4",
+        "name": "Planificación estratégica operativa",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 55,
+        "brief": "La IA te da escenarios, proyecciones y simulaciones. Tú decides hacia dónde lleva la empresa.",
+        "detail": "Los modelos predictivos pueden simular escenarios operativos, proyectar capacidad y optimizar la asignación de recursos. Pero la planificación estratégica implica alinear operaciones con la visión del negocio, algo que requiere contexto político y organizacional.",
+        "tasks": [
+          { "name": "Simulación de escenarios", "exposure": 72, "direction": "aumentacion" },
+          { "name": "Planificación de capacidad", "exposure": 65, "direction": "aumentacion" },
+          { "name": "Alineación con estrategia corporativa", "exposure": 20, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "dop-5",
+        "name": "Liderazgo de equipos operativos",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 15,
+        "brief": "Liderar equipos grandes con objetivos agresivos es pura inteligencia emocional. Aquí la IA no compite contigo.",
+        "detail": "La gestión de equipos operativos requiere motivación, resolución de conflictos, desarrollo de talento y comunicación constante. Estas son competencias fundamentalmente humanas que definen la diferencia entre operaciones que funcionan y operaciones excelentes.",
+        "tasks": [
+          { "name": "Desarrollo de talento", "exposure": 12, "direction": "aumentacion" },
+          { "name": "Gestión de conflictos", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Comunicación de objetivos", "exposure": 18, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "dop-6",
+        "name": "Gestión del cambio organizacional",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 20,
+        "brief": "Implementar un cambio operativo es un 20% de proceso y un 80% de personas. Eso es tu territorio.",
+        "detail": "Cuando introduces nuevas herramientas, procesos o estructuras, el éxito depende de la adopción humana. La IA puede planificar la transición, pero gestionar resistencias, comunicar el porqué y acompañar a los equipos es liderazgo puro.",
+        "tasks": [
+          { "name": "Planificación de transiciones", "exposure": 40, "direction": "aumentacion" },
+          { "name": "Gestión de resistencias", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Comunicación del cambio", "exposure": 22, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cto",
+    "title": "CTO",
+    "archetype": "orquestador",
+    "multiplier": 3.0,
+    "summary": "La IA transforma las herramientas que usas y los equipos que lideras. Tu valor está en la visión técnica, las decisiones arquitectónicas y el liderazgo que conecta tecnología con negocio.",
+    "blocks": [
+      {
+        "id": "cto-1",
+        "name": "Evaluación y adopción tecnológica",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 68,
+        "brief": "La IA te ayuda a evaluar tecnologías más rápido, pero apostar por la stack correcta sigue siendo tu decisión.",
+        "detail": "Las herramientas de IA pueden analizar ecosistemas tecnológicos, comparar soluciones y generar informes de evaluación. Pero la decisión de adoptar una tecnología implica factores de equipo, cultura, coste a largo plazo y estrategia que solo tú puedes ponderar.",
+        "tasks": [
+          { "name": "Análisis de herramientas y plataformas", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Pruebas de concepto", "exposure": 65, "direction": "aumentacion" },
+          { "name": "Decisión de adopción", "exposure": 20, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cto-2",
+        "name": "Revisión de código y arquitectura",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 80,
+        "brief": "La IA revisa pull requests y detecta problemas arquitectónicos. Tu ojo para el diseño sistémico es lo que añade perspectiva.",
+        "detail": "Los modelos de código pueden identificar bugs, sugerir refactorizaciones y evaluar patrones arquitectónicos. La revisión de código rutinaria se automatiza, pero las decisiones de diseño de sistemas a gran escala requieren experiencia y visión.",
+        "tasks": [
+          { "name": "Code review automatizado", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Detección de deuda técnica", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Decisiones de arquitectura", "exposure": 30, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cto-3",
+        "name": "Gestión de incidentes y operaciones",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 76,
+        "brief": "La IA detecta y diagnostica incidentes antes que tu equipo. La respuesta coordinada sigue necesitando liderazgo.",
+        "detail": "Los sistemas de observabilidad con IA pueden detectar anomalías, correlacionar eventos y sugerir causas raíz en tiempo real. La automatización de respuestas a incidentes comunes avanza rápido, pero los incidentes complejos requieren coordinación humana.",
+        "tasks": [
+          { "name": "Monitorización y alertas", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Diagnóstico de causa raíz", "exposure": 70, "direction": "aumentacion" },
+          { "name": "Coordinación de respuesta", "exposure": 25, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cto-4",
+        "name": "Estrategia técnica y roadmap",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 52,
+        "brief": "La IA te da datos para fundamentar tu roadmap. Pero la visión de hacia dónde va tu plataforma es tuya.",
+        "detail": "Las herramientas de IA pueden analizar tendencias, benchmarks del sector y rendimiento de sistemas para informar tu roadmap técnico. Sin embargo, alinear la estrategia técnica con los objetivos de negocio requiere juicio y liderazgo.",
+        "tasks": [
+          { "name": "Análisis de tendencias técnicas", "exposure": 72, "direction": "aumentacion" },
+          { "name": "Definición de roadmap", "exposure": 35, "direction": "aumentacion" },
+          { "name": "Comunicación a C-suite", "exposure": 18, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cto-5",
+        "name": "Liderazgo de equipos de ingeniería",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 18,
+        "brief": "Retener talento, crear cultura técnica y desarrollar ingenieros senior — eso no lo automatiza nadie.",
+        "detail": "La gestión de equipos de ingeniería implica mentoría, desarrollo de carrera, gestión de conflictos y creación de cultura. Estas son las competencias que definen a un CTO excepcional y son inherentemente humanas.",
+        "tasks": [
+          { "name": "Mentoría de líderes técnicos", "exposure": 12, "direction": "aumentacion" },
+          { "name": "Retención de talento", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Cultura de ingeniería", "exposure": 15, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cto-6",
+        "name": "Seguridad y compliance técnico",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 30,
+        "brief": "La IA detecta vulnerabilidades, pero la responsabilidad de proteger los datos de tus usuarios es tuya.",
+        "detail": "Las herramientas de seguridad con IA automatizan escaneos, detectan anomalías y sugieren parches. Pero la estrategia de seguridad, las decisiones de compliance y la responsabilidad ante una brecha requieren juicio humano y accountability.",
+        "tasks": [
+          { "name": "Escaneo de vulnerabilidades", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Estrategia de seguridad", "exposure": 22, "direction": "aumentacion" },
+          { "name": "Gestión de compliance", "exposure": 35, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "scrum-master",
+    "title": "Scrum Master",
+    "archetype": "orquestador",
+    "multiplier": 2.6,
+    "summary": "La IA puede facilitar ceremonias y generar métricas de equipo, pero tu capacidad de eliminar impedimentos, facilitar dinámicas y proteger al equipo es lo que realmente marca la diferencia.",
+    "blocks": [
+      {
+        "id": "sm-1",
+        "name": "Métricas de equipo y velocity",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 88,
+        "brief": "Los dashboards de velocity, burndown y cycle time se generan solos. Tu valor es interpretar qué significan.",
+        "detail": "Las herramientas de gestión de proyectos con IA generan métricas de equipo automáticamente y detectan patrones. La recopilación y visualización de datos de rendimiento es completamente automatizable.",
+        "tasks": [
+          { "name": "Cálculo de velocity y burndown", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Generación de informes de sprint", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Detección de patrones de bloqueo", "exposure": 72, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "sm-2",
+        "name": "Documentación de ceremonias",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 85,
+        "brief": "La IA transcribe, resume y genera action items de tus reuniones. Esta tarea administrativa desaparece.",
+        "detail": "Las herramientas de IA pueden transcribir reuniones, generar resúmenes, extraer action items y actualizar tickets automáticamente. La documentación de sprints, retrospectivas y dailies se automatiza por completo.",
+        "tasks": [
+          { "name": "Transcripción de reuniones", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Generación de actas", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Seguimiento de action items", "exposure": 78, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "sm-3",
+        "name": "Facilitación de retrospectivas",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 55,
+        "brief": "La IA sugiere dinámicas y analiza sentimiento, pero crear el espacio seguro donde el equipo se abre es tu arte.",
+        "detail": "Las herramientas de IA pueden proponer formatos de retrospectiva, analizar el sentimiento del equipo y detectar temas recurrentes. Pero la facilitación real — crear confianza, gestionar tensiones y guiar al equipo hacia compromisos — es humana.",
+        "tasks": [
+          { "name": "Diseño de dinámicas", "exposure": 65, "direction": "aumentacion" },
+          { "name": "Análisis de sentimiento del equipo", "exposure": 70, "direction": "aumentacion" },
+          { "name": "Facilitación de la conversación", "exposure": 15, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "sm-4",
+        "name": "Eliminación de impedimentos",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 20,
+        "brief": "Cuando el equipo está bloqueado, tú mueves cielo y tierra para desbloquearlos. Eso es puro liderazgo servant.",
+        "detail": "Eliminar impedimentos implica negociar con otros equipos, escalar problemas, gestionar dependencias y a veces enfrentarse a la organización. Es una competencia política y relacional que la IA no puede ejercer.",
+        "tasks": [
+          { "name": "Identificación de bloqueos", "exposure": 45, "direction": "aumentacion" },
+          { "name": "Negociación con otros equipos", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Escalado de problemas", "exposure": 15, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "sm-5",
+        "name": "Coaching de equipos ágiles",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 18,
+        "brief": "Desarrollar la madurez ágil de un equipo es un trabajo de confianza y ejemplo. La IA no puede mentorizar.",
+        "detail": "El coaching ágil requiere observar dinámicas de equipo, dar feedback honesto, modelar comportamientos y adaptar las prácticas al contexto del equipo. Es una competencia profundamente interpersonal.",
+        "tasks": [
+          { "name": "Observación de dinámicas", "exposure": 12, "direction": "aumentacion" },
+          { "name": "Feedback individual", "exposure": 8, "direction": "aumentacion" },
+          { "name": "Adaptación de prácticas ágiles", "exposure": 25, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "sm-6",
+        "name": "Planificación y estimación de sprints",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 62,
+        "brief": "La IA puede estimar story points con datos históricos, pero la conversación de planning sigue siendo clave.",
+        "detail": "Los modelos pueden predecir la duración de tareas basándose en datos históricos y complejidad del código. Sin embargo, la planificación efectiva requiere conversación, negociación de alcance y compromiso colectivo del equipo.",
+        "tasks": [
+          { "name": "Estimación basada en datos", "exposure": 78, "direction": "aumentacion" },
+          { "name": "Facilitación de planning", "exposure": 20, "direction": "aumentacion" },
+          { "name": "Negociación de alcance", "exposure": 15, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cfo",
+    "title": "CFO",
+    "archetype": "estratega",
+    "multiplier": 2.2,
+    "summary": "La IA transforma tu capacidad analítica y automatiza el reporting, pero la estrategia financiera, la gestión de riesgo y la relación con inversores dependen de tu juicio y credibilidad.",
+    "blocks": [
+      {
+        "id": "cfo-1",
+        "name": "Reporting financiero y consolidación",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 89,
+        "brief": "Los cierres contables y la consolidación financiera se automatizan casi por completo. Tu equipo se reduce.",
+        "detail": "La IA puede automatizar reconciliaciones, generar estados financieros y consolidar datos de múltiples entidades. Los procesos de cierre mensual que antes requerían semanas se comprimen a días con validación automática.",
+        "tasks": [
+          { "name": "Cierre contable mensual", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Consolidación de entidades", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Generación de estados financieros", "exposure": 85, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "cfo-2",
+        "name": "Análisis y modelado financiero",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 72,
+        "brief": "La IA construye modelos financieros en minutos. Tú decides qué supuestos tienen sentido y cuáles no.",
+        "detail": "Las herramientas de IA generan modelos DCF, proyecciones y análisis de sensibilidad con instrucciones en lenguaje natural. Tu valor está en validar los supuestos, cuestionar los inputs y comunicar las implicaciones al board.",
+        "tasks": [
+          { "name": "Construcción de modelos financieros", "exposure": 80, "direction": "aumentacion" },
+          { "name": "Análisis de sensibilidad", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Validación de supuestos", "exposure": 35, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cfo-3",
+        "name": "Gestión de tesorería y liquidez",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 60,
+        "brief": "La IA predice flujos de caja con precisión creciente, pero gestionar la liquidez en crisis sigue siendo tu responsabilidad.",
+        "detail": "Los modelos predictivos pueden forecaster cash flows, optimizar posiciones de tesorería y detectar riesgos de liquidez. Las decisiones de financiación, las líneas de crédito y la gestión en momentos de tensión requieren tu experiencia.",
+        "tasks": [
+          { "name": "Predicción de cash flow", "exposure": 78, "direction": "aumentacion" },
+          { "name": "Optimización de tesorería", "exposure": 65, "direction": "aumentacion" },
+          { "name": "Decisiones de financiación", "exposure": 22, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cfo-4",
+        "name": "Estrategia financiera y M&A",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 18,
+        "brief": "La estrategia financiera es juicio puro. La IA te da datos, pero la visión de cómo crecer es tuya.",
+        "detail": "Las decisiones de estructura de capital, política de dividendos, M&A y financiación estratégica requieren juicio sobre mercados, timing y relaciones. La IA informa pero no puede sustituir la visión y el liderazgo financiero.",
+        "tasks": [
+          { "name": "Evaluación de oportunidades M&A", "exposure": 30, "direction": "aumentacion" },
+          { "name": "Estructura de capital", "exposure": 15, "direction": "aumentacion" },
+          { "name": "Negociación con inversores", "exposure": 8, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cfo-5",
+        "name": "Compliance y auditoría",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 78,
+        "brief": "La IA automatiza controles, detecta anomalías y prepara documentación de auditoría. El compliance rutinario se comoditiza.",
+        "detail": "Las plataformas de IA pueden monitorizar transacciones, detectar fraude, automatizar controles internos y preparar documentación regulatoria. La supervisión humana sigue siendo necesaria, pero el volumen de trabajo manual se reduce drásticamente.",
+        "tasks": [
+          { "name": "Monitorización de controles", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Detección de anomalías", "exposure": 82, "direction": "automatizacion" },
+          { "name": "Preparación de auditorías", "exposure": 70, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cfo-6",
+        "name": "Relación con board e inversores",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 14,
+        "brief": "Cuando presentas al board, tu credibilidad y tu capacidad de transmitir confianza son irremplazables.",
+        "detail": "La comunicación con el board, inversores y analistas requiere credibilidad personal, capacidad de responder bajo presión y habilidad para gestionar expectativas. La IA prepara los materiales, pero la presencia es tuya.",
+        "tasks": [
+          { "name": "Preparación de materiales para board", "exposure": 72, "direction": "aumentacion" },
+          { "name": "Presentación a inversores", "exposure": 8, "direction": "aumentacion" },
+          { "name": "Gestión de expectativas del mercado", "exposure": 10, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "medico-especialista",
+    "title": "Médico Especialista",
+    "archetype": "estratega",
+    "multiplier": 2.0,
+    "summary": "La IA revoluciona el diagnóstico y la investigación clínica, pero la relación médico-paciente, la responsabilidad clínica y el juicio en casos complejos siguen siendo tu fortaleza.",
+    "blocks": [
+      {
+        "id": "med-1",
+        "name": "Diagnóstico por imagen y analítica",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 85,
+        "brief": "La IA ya iguala o supera a radiólogos en detección de patologías comunes. El diagnóstico rutinario cambia para siempre.",
+        "detail": "Los modelos de visión por computadora detectan tumores, fracturas y anomalías en imágenes médicas con alta precisión. La lectura rutinaria de radiografías, TACs y resonancias se automatiza progresivamente.",
+        "tasks": [
+          { "name": "Lectura de imágenes rutinarias", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Análisis de resultados de laboratorio", "exposure": 82, "direction": "automatizacion" },
+          { "name": "Detección de patrones anómalos", "exposure": 78, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "med-2",
+        "name": "Investigación clínica y evidencia",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 70,
+        "brief": "La IA sintetiza miles de papers en minutos. Mantenerte actualizado ya no es un problema de tiempo.",
+        "detail": "Las herramientas de IA pueden revisar literatura médica, sintetizar evidencia de ensayos clínicos y sugerir protocolos basados en las últimas guías. Tu valor está en evaluar críticamente la evidencia y aplicarla al contexto de tu paciente.",
+        "tasks": [
+          { "name": "Revisión de literatura médica", "exposure": 82, "direction": "aumentacion" },
+          { "name": "Síntesis de evidencia clínica", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Aplicación a casos individuales", "exposure": 30, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "med-3",
+        "name": "Documentación clínica",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 82,
+        "brief": "La IA transcribe consultas y genera historiales clínicos. El papeleo médico tiene los días contados.",
+        "detail": "Los asistentes de IA pueden transcribir consultas en tiempo real, generar notas clínicas estructuradas y actualizar historiales electrónicos. La documentación que consume horas de tu día se reduce a revisión y validación.",
+        "tasks": [
+          { "name": "Transcripción de consultas", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Generación de informes clínicos", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Actualización de historiales", "exposure": 80, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "med-4",
+        "name": "Diagnóstico diferencial complejo",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 58,
+        "brief": "La IA sugiere diagnósticos diferenciales, pero cuando el caso es raro, tu experiencia clínica es insustituible.",
+        "detail": "Los sistemas de apoyo al diagnóstico pueden sugerir diagnósticos diferenciales basados en síntomas y resultados. Sin embargo, los casos atípicos, las comorbilidades complejas y la integración de factores psicosociales requieren tu juicio clínico.",
+        "tasks": [
+          { "name": "Generación de diagnósticos diferenciales", "exposure": 72, "direction": "aumentacion" },
+          { "name": "Evaluación de casos atípicos", "exposure": 28, "direction": "aumentacion" },
+          { "name": "Integración de factores del paciente", "exposure": 20, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "med-5",
+        "name": "Relación médico-paciente",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 12,
+        "brief": "El paciente necesita sentirse escuchado, comprendido y cuidado. Eso no lo hace ningún algoritmo.",
+        "detail": "La comunicación de diagnósticos difíciles, la empatía en momentos de vulnerabilidad y la construcción de confianza terapéutica son el corazón de la medicina. Ningún avance en IA sustituye la presencia humana del médico.",
+        "tasks": [
+          { "name": "Comunicación de diagnósticos", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Consentimiento informado", "exposure": 15, "direction": "aumentacion" },
+          { "name": "Acompañamiento emocional", "exposure": 5, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "med-6",
+        "name": "Toma de decisiones terapéuticas",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 22,
+        "brief": "Cuando decides entre tratamientos, sopesas riesgo, beneficio, preferencias del paciente y ética. Eso es juicio médico.",
+        "detail": "La IA puede sugerir opciones terapéuticas basadas en evidencia, pero la decisión final integra valores del paciente, calidad de vida, riesgo individual y consideraciones éticas. La responsabilidad clínica es inherentemente humana.",
+        "tasks": [
+          { "name": "Evaluación riesgo-beneficio", "exposure": 35, "direction": "aumentacion" },
+          { "name": "Personalización del tratamiento", "exposure": 25, "direction": "aumentacion" },
+          { "name": "Decisiones éticas complejas", "exposure": 8, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "consultor-estrategia",
+    "title": "Consultor de Estrategia",
+    "archetype": "estratega",
+    "multiplier": 2.6,
+    "summary": "La IA acelera tu análisis y genera frameworks en segundos, pero la capacidad de influir en el cliente, estructurar problemas ambiguos y vender el siguiente proyecto es tu diferencial.",
+    "blocks": [
+      {
+        "id": "ce-1",
+        "name": "Investigación de mercado y benchmarking",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 87,
+        "brief": "La IA hace en minutos lo que un analista junior hacía en semanas. La investigación de escritorio se automatiza.",
+        "detail": "Las herramientas de IA pueden compilar datos de mercado, analizar competidores, generar benchmarks y crear perfiles de industria. El trabajo de investigación básica que definía la vida del consultor junior se comoditiza rápidamente.",
+        "tasks": [
+          { "name": "Compilación de datos de mercado", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Análisis competitivo", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Generación de benchmarks", "exposure": 88, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "ce-2",
+        "name": "Modelado y análisis cuantitativo",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 74,
+        "brief": "La IA construye modelos financieros y operativos. Tu valor está en saber qué modelar y qué preguntar.",
+        "detail": "Los modelos de IA generan análisis de sensibilidad, proyecciones y escenarios con velocidad asombrosa. Sin embargo, definir las hipótesis correctas, estructurar el problema y comunicar las implicaciones al cliente requiere tu experiencia.",
+        "tasks": [
+          { "name": "Construcción de modelos", "exposure": 82, "direction": "aumentacion" },
+          { "name": "Análisis de escenarios", "exposure": 72, "direction": "aumentacion" },
+          { "name": "Definición de hipótesis", "exposure": 30, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ce-3",
+        "name": "Creación de presentaciones y entregables",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 80,
+        "brief": "La IA genera slides con narrativa, datos y diseño. El deck de consultoría ya no es un arte exclusivo.",
+        "detail": "Las herramientas de IA pueden crear presentaciones completas con estructura narrativa, visualizaciones de datos y recomendaciones. La producción de slides de consultoría, históricamente intensiva en horas, se comprime drásticamente.",
+        "tasks": [
+          { "name": "Generación de slides", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Visualización de datos", "exposure": 82, "direction": "automatizacion" },
+          { "name": "Narrativa del entregable", "exposure": 55, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ce-4",
+        "name": "Estructuración de problemas",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 58,
+        "brief": "La IA propone frameworks, pero tú decides cuál aplica cuando el problema del cliente es ambiguo y político.",
+        "detail": "Los modelos de IA conocen todos los frameworks de consultoría y pueden proponer estructuras para cualquier problema. Pero cuando el problema real es político, emocional o mal definido, la capacidad de reformularlo es tu diferencial.",
+        "tasks": [
+          { "name": "Diagnóstico del problema real", "exposure": 30, "direction": "aumentacion" },
+          { "name": "Selección de frameworks", "exposure": 68, "direction": "aumentacion" },
+          { "name": "Reformulación de preguntas clave", "exposure": 25, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ce-5",
+        "name": "Gestión de la relación con el cliente",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 15,
+        "brief": "El cliente paga por tu juicio, tu presencia y tu capacidad de influir. Eso no se automatiza.",
+        "detail": "La venta de consultoría, la gestión de expectativas, la influencia en el comité de dirección y la confianza personal son el corazón del negocio. La IA no puede sentarse en la mesa del CEO y generar confianza.",
+        "tasks": [
+          { "name": "Reuniones con C-level", "exposure": 8, "direction": "aumentacion" },
+          { "name": "Gestión de expectativas", "exposure": 12, "direction": "aumentacion" },
+          { "name": "Desarrollo comercial", "exposure": 10, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ce-6",
+        "name": "Facilitación de workshops estratégicos",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 22,
+        "brief": "Facilitar una sesión estratégica con 15 directivos es un acto de liderazgo. La IA prepara el material, tú diriges la sala.",
+        "detail": "Los workshops estratégicos requieren leer la dinámica del grupo, gestionar egos, provocar el pensamiento divergente y converger hacia decisiones. La facilitación experta es una competencia profundamente interpersonal.",
+        "tasks": [
+          { "name": "Preparación de materiales", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Facilitación en vivo", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Síntesis y próximos pasos", "exposure": 45, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "desarrollador-software",
+    "title": "Desarrollador de Software",
+    "archetype": "acelerado",
+    "multiplier": 4.2,
+    "summary": "La IA escribe código, tests y documentación a velocidad asombrosa. Tu valor migra de escribir código a diseñar sistemas, resolver problemas complejos y tomar decisiones de arquitectura.",
+    "blocks": [
+      {
+        "id": "dev-1",
+        "name": "Escritura de código",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 91,
+        "brief": "La IA genera código funcional para la mayoría de tareas. Escribir código como skill aislada pierde valor rápidamente.",
+        "detail": "Copilot, Claude y Cursor generan funciones, componentes y módulos completos con alta precisión. La escritura de código rutinario se automatiza — tu valor migra a la revisión, la arquitectura y la resolución de problemas ambiguos.",
+        "tasks": [
+          { "name": "Implementación de features estándar", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Escritura de boilerplate", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Resolución de bugs complejos", "exposure": 55, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "dev-2",
+        "name": "Testing y QA",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 86,
+        "brief": "La IA genera tests unitarios, de integración y E2E. La cobertura de tests deja de ser un cuello de botella.",
+        "detail": "Los modelos de código pueden generar suites de tests completas, detectar edge cases y escribir tests de regresión. La escritura manual de tests se reduce drásticamente — tu valor está en definir qué testear y la estrategia de QA.",
+        "tasks": [
+          { "name": "Tests unitarios", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Tests de integración", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Estrategia de testing", "exposure": 40, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "dev-3",
+        "name": "Diseño de arquitectura y sistemas",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 55,
+        "brief": "La IA propone arquitecturas, pero cuando tu sistema tiene millones de usuarios, las decisiones de diseño son tuyas.",
+        "detail": "Los modelos pueden sugerir patrones arquitectónicos, evaluar trade-offs y generar diagramas. Sin embargo, las decisiones de diseño que afectan escalabilidad, mantenibilidad y coste a largo plazo requieren experiencia y contexto del equipo.",
+        "tasks": [
+          { "name": "Evaluación de patrones arquitectónicos", "exposure": 65, "direction": "aumentacion" },
+          { "name": "Diseño de APIs y contratos", "exposure": 58, "direction": "aumentacion" },
+          { "name": "Decisiones de trade-offs técnicos", "exposure": 28, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "dev-4",
+        "name": "Code review y mentoría",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 60,
+        "brief": "La IA encuentra bugs y sugiere mejoras, pero enseñar a un junior a pensar como senior es cosa tuya.",
+        "detail": "Las herramientas de IA automatizan la detección de problemas en code reviews. Pero la mentoría técnica — enseñar principios de diseño, compartir contexto y desarrollar criterio — es una competencia humana esencial para los equipos.",
+        "tasks": [
+          { "name": "Detección automática de problemas", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Feedback sobre diseño", "exposure": 40, "direction": "aumentacion" },
+          { "name": "Mentoría de desarrolladores junior", "exposure": 12, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "dev-5",
+        "name": "Colaboración y comunicación técnica",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 22,
+        "brief": "Traducir requisitos de negocio a soluciones técnicas y alinear al equipo es tu superpoder humano.",
+        "detail": "La capacidad de comunicar decisiones técnicas a stakeholders no técnicos, negociar alcance con producto y colaborar efectivamente en equipo son competencias que definen a los desarrolladores más valiosos.",
+        "tasks": [
+          { "name": "Comunicación con producto", "exposure": 15, "direction": "aumentacion" },
+          { "name": "Documentación de decisiones", "exposure": 65, "direction": "aumentacion" },
+          { "name": "Pair programming y colaboración", "exposure": 18, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "dev-6",
+        "name": "DevOps y despliegue",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 35,
+        "brief": "La IA genera pipelines y configs, pero cuando producción se cae a las 3 AM, tu criterio es lo que cuenta.",
+        "detail": "Las herramientas de IA pueden generar configuraciones de CI/CD, Dockerfiles y scripts de despliegue. Pero la gestión de incidentes en producción, las decisiones de rollback y la estrategia de despliegue requieren experiencia y juicio bajo presión.",
+        "tasks": [
+          { "name": "Configuración de CI/CD", "exposure": 82, "direction": "automatizacion" },
+          { "name": "Gestión de incidentes en producción", "exposure": 25, "direction": "aumentacion" },
+          { "name": "Estrategia de despliegue", "exposure": 30, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "disenador-ux",
+    "title": "Diseñador UX",
+    "archetype": "acelerado",
+    "multiplier": 3.8,
+    "summary": "La IA genera wireframes, prototipos y copy en segundos. Tu valor se concentra en la investigación profunda con usuarios, el pensamiento sistémico de diseño y la defensa del usuario en la organización.",
+    "blocks": [
+      {
+        "id": "ux-1",
+        "name": "Generación de wireframes y prototipos",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 84,
+        "brief": "La IA genera wireframes a partir de un prompt. La producción de prototipos de baja fidelidad se comoditiza.",
+        "detail": "Las herramientas de IA generativa pueden crear wireframes, mockups y prototipos interactivos con instrucciones en lenguaje natural. La velocidad de iteración visual se multiplica, pero el criterio de qué diseñar y por qué sigue siendo tuyo.",
+        "tasks": [
+          { "name": "Wireframes de baja fidelidad", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Prototipos interactivos", "exposure": 78, "direction": "automatizacion" },
+          { "name": "Iteración de diseño visual", "exposure": 72, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ux-2",
+        "name": "UX writing y copy",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 82,
+        "brief": "La IA escribe microcopy, onboarding flows y mensajes de error con calidad creciente. El UX writing básico se automatiza.",
+        "detail": "Los modelos de lenguaje generan copy de interfaz, mensajes de error, textos de onboarding y tooltips con tono y voz consistentes. La producción de copy UX a escala se automatiza — tu valor está en la estrategia de contenido.",
+        "tasks": [
+          { "name": "Microcopy de interfaz", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Flujos de onboarding", "exposure": 80, "direction": "automatizacion" },
+          { "name": "Estrategia de contenido UX", "exposure": 40, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ux-3",
+        "name": "Investigación con usuarios",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 55,
+        "brief": "La IA analiza entrevistas y detecta patrones, pero sentarte frente al usuario y observar su frustración es irremplazable.",
+        "detail": "Las herramientas de IA transcriben, categorizan y sintetizan entrevistas de usuario. Pero la observación directa, la empatía contextual y la capacidad de hacer la pregunta correcta en el momento justo son competencias humanas esenciales.",
+        "tasks": [
+          { "name": "Análisis de entrevistas", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Entrevistas presenciales", "exposure": 15, "direction": "aumentacion" },
+          { "name": "Tests de usabilidad", "exposure": 35, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ux-4",
+        "name": "Design system y consistencia",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 65,
+        "brief": "La IA genera componentes siguiendo tu design system. Mantener la coherencia a escala ahora es más fácil.",
+        "detail": "Los modelos pueden generar variaciones de componentes, detectar inconsistencias y proponer extensiones del design system. Sin embargo, las decisiones fundamentales de diseño sistémico y la evolución del sistema requieren visión estratégica.",
+        "tasks": [
+          { "name": "Generación de componentes", "exposure": 80, "direction": "aumentacion" },
+          { "name": "Auditoría de consistencia", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Evolución del design system", "exposure": 30, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ux-5",
+        "name": "Defensa del usuario en la organización",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 15,
+        "brief": "Cuando producto quiere atajar y negocio quiere más conversiones, tú defiendes al usuario. Eso es liderazgo.",
+        "detail": "La defensa del usuario frente a presiones de negocio, la negociación de trade-offs entre experiencia y métricas, y la influencia en decisiones de producto son competencias políticas y de liderazgo que definen al UX senior.",
+        "tasks": [
+          { "name": "Negociación con producto", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Presentación de insights a stakeholders", "exposure": 22, "direction": "aumentacion" },
+          { "name": "Influencia en roadmap", "exposure": 12, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ux-6",
+        "name": "Accesibilidad e inclusión",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 30,
+        "brief": "La IA detecta problemas de accesibilidad, pero diseñar para la diversidad requiere empatía y compromiso humano.",
+        "detail": "Las herramientas de IA pueden auditar accesibilidad técnica (WCAG), pero diseñar experiencias verdaderamente inclusivas requiere entender contextos diversos, testear con usuarios reales y tomar decisiones de diseño centradas en la equidad.",
+        "tasks": [
+          { "name": "Auditoría de accesibilidad", "exposure": 80, "direction": "automatizacion" },
+          { "name": "Diseño inclusivo", "exposure": 20, "direction": "aumentacion" },
+          { "name": "Testing con usuarios diversos", "exposure": 12, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "content-creator",
+    "title": "Content Creator",
+    "archetype": "acelerado",
+    "multiplier": 3.9,
+    "summary": "La IA genera contenido a una velocidad imposible de igualar manualmente. Tu diferencial migra de producir contenido a tener voz propia, criterio editorial y conexión auténtica con tu audiencia.",
+    "blocks": [
+      {
+        "id": "cc-1",
+        "name": "Redacción de contenido",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 90,
+        "brief": "La IA escribe artículos, posts y newsletters casi tan bien como tú. La producción de contenido genérico se comoditiza.",
+        "detail": "Los modelos de lenguaje generan contenido de blog, redes sociales, email marketing y guiones con calidad creciente. El contenido informativo estándar se automatiza — tu valor migra a la voz original, la perspectiva única y la autenticidad.",
+        "tasks": [
+          { "name": "Artículos de blog", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Posts para redes sociales", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Newsletters", "exposure": 85, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "cc-2",
+        "name": "Edición de vídeo y audio",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 78,
+        "brief": "La IA edita vídeos, genera subtítulos y recorta clips automáticamente. La post-producción básica se automatiza.",
+        "detail": "Las herramientas de IA pueden cortar vídeos, generar subtítulos multiidioma, crear highlights y ajustar audio. La edición técnica rutinaria se reduce drasticamente — tu creatividad editorial es lo que diferencia tu contenido.",
+        "tasks": [
+          { "name": "Corte y montaje básico", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Subtitulado y transcripción", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Edición creativa y storytelling", "exposure": 35, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cc-3",
+        "name": "Estrategia de contenido y calendario",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 65,
+        "brief": "La IA analiza tendencias y sugiere temas. Tú decides la narrativa que construye tu marca personal.",
+        "detail": "Las herramientas de IA pueden analizar trending topics, rendimiento de contenido previo y gaps editoriales. Pero la estrategia de contenido que construye una audiencia leal requiere visión, autenticidad y coherencia editorial a largo plazo.",
+        "tasks": [
+          { "name": "Análisis de tendencias", "exposure": 82, "direction": "aumentacion" },
+          { "name": "Planificación de calendario editorial", "exposure": 70, "direction": "aumentacion" },
+          { "name": "Definición de narrativa de marca", "exposure": 25, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cc-4",
+        "name": "SEO y optimización de distribución",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 72,
+        "brief": "La IA optimiza tu SEO y sugiere horarios de publicación. La distribución inteligente se vuelve accesible para todos.",
+        "detail": "Los modelos pueden optimizar títulos, meta descriptions, keywords y horarios de publicación basándose en datos. Tu valor está en entender a tu audiencia más allá de las métricas y crear contenido que la gente comparta porque conecta.",
+        "tasks": [
+          { "name": "Optimización SEO", "exposure": 85, "direction": "aumentacion" },
+          { "name": "Análisis de rendimiento", "exposure": 78, "direction": "aumentacion" },
+          { "name": "Estrategia de distribución multicanal", "exposure": 45, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cc-5",
+        "name": "Conexión con la audiencia",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 18,
+        "brief": "Tu audiencia te sigue por ti, no por tu contenido. La autenticidad y la conexión humana son tu moat.",
+        "detail": "La comunidad, la interacción genuina con seguidores, la vulnerabilidad y la coherencia personal son lo que convierte consumidores de contenido en fans. La IA no puede replicar tu personalidad ni tu historia.",
+        "tasks": [
+          { "name": "Interacción con comentarios", "exposure": 20, "direction": "aumentacion" },
+          { "name": "Creación de comunidad", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Colaboraciones con otros creadores", "exposure": 8, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "cc-6",
+        "name": "Monetización y partnerships",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 25,
+        "brief": "Negociar con marcas, cerrar partnerships y construir tu negocio como creador es 100% relacional.",
+        "detail": "La monetización de contenido implica negociación con marcas, selección de partnerships alineados con tu audiencia y desarrollo de productos propios. Son decisiones de negocio y relación que requieren juicio y autenticidad.",
+        "tasks": [
+          { "name": "Negociación con marcas", "exposure": 12, "direction": "aumentacion" },
+          { "name": "Selección de partnerships", "exposure": 15, "direction": "aumentacion" },
+          { "name": "Desarrollo de productos propios", "exposure": 30, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "recruiter",
+    "title": "Recruiter",
+    "archetype": "acelerado",
+    "multiplier": 3.6,
+    "summary": "La IA automatiza el sourcing, el screening y la comunicación con candidatos. Tu valor se concentra en evaluar el fit cultural, vender la oportunidad y cerrar al candidato.",
+    "blocks": [
+      {
+        "id": "rec-1",
+        "name": "Sourcing de candidatos",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 89,
+        "brief": "La IA encuentra candidatos en LinkedIn, GitHub y bases de datos en segundos. El sourcing manual desaparece.",
+        "detail": "Las herramientas de IA rastrean perfiles, generan listas de candidatos cualificados y envían mensajes personalizados a escala. El sourcing básico como actividad humana tiene los días contados — tu valor está en evaluar la calidad más allá del CV.",
+        "tasks": [
+          { "name": "Búsqueda en bases de datos", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Generación de mensajes de outreach", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Mapeo de mercado de talento", "exposure": 72, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "rec-2",
+        "name": "Screening y filtrado de CVs",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 86,
+        "brief": "La IA filtra cientos de CVs y hace prescreen calls automáticos. El filtrado inicial se automatiza.",
+        "detail": "Los modelos de IA pueden evaluar CVs contra requisitos del puesto, hacer preguntas de screening por chat y priorizar candidatos. El filtrado masivo que consumía la mayor parte de tu tiempo se reduce a supervisión.",
+        "tasks": [
+          { "name": "Filtrado de CVs", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Prescreening automatizado", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Evaluación de adecuación inicial", "exposure": 65, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "rec-3",
+        "name": "Coordinación y scheduling",
+        "category": "transformacion",
+        "direction": "automatizacion",
+        "score": 75,
+        "brief": "La IA coordina agendas y envía recordatorios. La logística de entrevistas se automatiza por completo.",
+        "detail": "Las herramientas de IA gestionan calendarios, envían invitaciones, coordinan paneles de entrevistadores y hacen seguimiento automático. La carga administrativa del proceso de selección se reduce al mínimo.",
+        "tasks": [
+          { "name": "Coordinación de agendas", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Envío de comunicaciones", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Seguimiento del pipeline", "exposure": 70, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "rec-4",
+        "name": "Evaluación de candidatos en entrevista",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 52,
+        "brief": "La IA analiza respuestas y detecta patrones, pero evaluar el potencial real de alguien requiere intuición humana.",
+        "detail": "Los sistemas de IA pueden analizar entrevistas, evaluar competencias y generar scorecards. Pero detectar motivación genuina, evaluar fit cultural y percibir señales sutiles que predicen éxito en el equipo son habilidades humanas.",
+        "tasks": [
+          { "name": "Análisis de respuestas", "exposure": 65, "direction": "aumentacion" },
+          { "name": "Evaluación de fit cultural", "exposure": 20, "direction": "aumentacion" },
+          { "name": "Calibración con hiring managers", "exposure": 25, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "rec-5",
+        "name": "Venta de la oportunidad al candidato",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 18,
+        "brief": "Cuando el candidato top tiene 3 ofertas, eres tú quien le convence de que esta es la correcta.",
+        "detail": "Vender la oportunidad requiere entender las motivaciones del candidato, personalizar el pitch, gestionar contraofertas y construir una relación de confianza. Es una venta compleja y emocional que la IA no puede cerrar.",
+        "tasks": [
+          { "name": "Pitch personalizado", "exposure": 15, "direction": "aumentacion" },
+          { "name": "Gestión de contraofertas", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Cierre del candidato", "exposure": 8, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "rec-6",
+        "name": "Relación con hiring managers",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 22,
+        "brief": "Entender qué necesita realmente el hiring manager — más allá del job description — es tu arte.",
+        "detail": "La relación con hiring managers implica gestionar expectativas, desafiar requisitos poco realistas, educar sobre el mercado y ser un partner estratégico. Es una relación de influencia que requiere credibilidad y confianza.",
+        "tasks": [
+          { "name": "Intake meetings", "exposure": 25, "direction": "aumentacion" },
+          { "name": "Gestión de expectativas", "exposure": 12, "direction": "aumentacion" },
+          { "name": "Consultoría sobre mercado de talento", "exposure": 30, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "comercial-b2b",
+    "title": "Comercial B2B",
+    "archetype": "conector",
+    "multiplier": 2.5,
+    "summary": "La IA cualifica leads, genera propuestas y automatiza seguimiento. Pero cerrar un deal B2B complejo sigue siendo un acto de relación, confianza y persuasión humana.",
+    "blocks": [
+      {
+        "id": "b2b-1",
+        "name": "Prospección y cualificación de leads",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 85,
+        "brief": "La IA identifica y cualifica leads con precisión creciente. La prospección en frío manual tiene los días contados.",
+        "detail": "Las herramientas de IA analizan señales de intención de compra, datos firmográficos y comportamiento digital para generar listas de prospectos cualificados. La prospección masiva sin inteligencia se automatiza por completo.",
+        "tasks": [
+          { "name": "Identificación de prospectos", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Scoring de leads", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Investigación de cuentas", "exposure": 72, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "b2b-2",
+        "name": "Generación de propuestas y presentaciones",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 80,
+        "brief": "La IA genera propuestas comerciales personalizadas en minutos. Tu valor está en la estrategia de la oferta, no en el documento.",
+        "detail": "Los modelos de IA pueden crear propuestas, personalizar presentaciones y generar materiales de venta adaptados a cada cliente. La producción de documentos comerciales se automatiza — la estrategia de pricing y posicionamiento sigue siendo tuya.",
+        "tasks": [
+          { "name": "Creación de propuestas", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Personalización de materiales", "exposure": 82, "direction": "automatizacion" },
+          { "name": "Estrategia de pricing", "exposure": 30, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "b2b-3",
+        "name": "Gestión de pipeline y CRM",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 68,
+        "brief": "La IA actualiza tu CRM, predice cierres y te dice en qué deal enfocarte. Tu tiempo se optimiza.",
+        "detail": "Los CRMs con IA predicen probabilidades de cierre, sugieren next best actions y automatizan el seguimiento. Tu valor migra de la gestión administrativa del pipeline a la ejecución estratégica de cada oportunidad.",
+        "tasks": [
+          { "name": "Actualización automática de CRM", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Predicción de pipeline", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Priorización de oportunidades", "exposure": 40, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "b2b-4",
+        "name": "Discovery y diagnóstico del cliente",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 52,
+        "brief": "Entender el dolor real del cliente requiere preguntar, escuchar y leer entre líneas. Eso es tu territorio.",
+        "detail": "La IA puede preparar research sobre el cliente y sugerir preguntas de discovery. Pero el diagnóstico real del problema, la detección de necesidades ocultas y la construcción de urgencia son competencias de venta consultiva humana.",
+        "tasks": [
+          { "name": "Preparación de reuniones", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Conducción de discovery calls", "exposure": 18, "direction": "aumentacion" },
+          { "name": "Diagnóstico de necesidades", "exposure": 25, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "b2b-5",
+        "name": "Negociación y cierre",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 15,
+        "brief": "Cerrar un deal de seis cifras es un acto de confianza. El cliente firma porque confía en ti, no en tu propuesta.",
+        "detail": "La negociación B2B compleja implica gestión de múltiples stakeholders, manejo de objeciones, timing estratégico y construcción de urgencia. La IA prepara los argumentos, pero el cierre es profundamente relacional.",
+        "tasks": [
+          { "name": "Manejo de objeciones", "exposure": 20, "direction": "aumentacion" },
+          { "name": "Negociación de condiciones", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Cierre del deal", "exposure": 8, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "b2b-6",
+        "name": "Relación post-venta y expansión",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 22,
+        "brief": "La venta no acaba con la firma. Expandir la cuenta y convertir al cliente en referencia es tu mayor activo.",
+        "detail": "La gestión de cuentas post-venta, la detección de oportunidades de upsell, la resolución de problemas y la generación de referencias son actividades que dependen de la relación personal y la confianza construida.",
+        "tasks": [
+          { "name": "Seguimiento post-venta", "exposure": 40, "direction": "aumentacion" },
+          { "name": "Detección de upsell", "exposure": 30, "direction": "aumentacion" },
+          { "name": "Generación de referencias", "exposure": 12, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "hrbp",
+    "title": "HR Business Partner",
+    "archetype": "conector",
+    "multiplier": 2.3,
+    "summary": "La IA automatiza procesos de RRHH y genera insights sobre talento. Pero tu rol como puente entre personas y estrategia de negocio requiere empatía, juicio y habilidad política.",
+    "blocks": [
+      {
+        "id": "hr-1",
+        "name": "Análisis de datos de personas",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 83,
+        "brief": "La IA analiza rotación, engagement y rendimiento automáticamente. Los insights de people analytics se generan solos.",
+        "detail": "Las plataformas de IA pueden analizar datos de engagement, predecir rotación, identificar patrones de rendimiento y generar informes de people analytics. La recopilación y análisis de datos de personas se automatiza por completo.",
+        "tasks": [
+          { "name": "Análisis de rotación", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Informes de engagement", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Predicción de riesgo de fuga", "exposure": 80, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "hr-2",
+        "name": "Diseño de políticas y procesos",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 62,
+        "brief": "La IA genera borradores de políticas y benchmarks de mercado. Adaptar las políticas a tu cultura es cosa tuya.",
+        "detail": "Los modelos de IA pueden generar políticas de RRHH, comparar con mejores prácticas del sector y adaptar templates. Pero el diseño de políticas que funcionen en tu cultura organizacional específica requiere conocimiento profundo del contexto.",
+        "tasks": [
+          { "name": "Benchmarking de políticas", "exposure": 78, "direction": "aumentacion" },
+          { "name": "Redacción de políticas", "exposure": 72, "direction": "aumentacion" },
+          { "name": "Adaptación cultural de procesos", "exposure": 25, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "hr-3",
+        "name": "Administración de procesos de RRHH",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 80,
+        "brief": "Onboarding, offboarding y gestión administrativa se automatizan. Tu tiempo se libera para lo estratégico.",
+        "detail": "Los flujos de onboarding, offboarding, gestión de vacaciones y procesos administrativos se automatizan con IA. Los chatbots resuelven dudas frecuentes de empleados y la documentación se genera automáticamente.",
+        "tasks": [
+          { "name": "Procesos de onboarding", "exposure": 82, "direction": "automatizacion" },
+          { "name": "Gestión documental", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Respuesta a consultas de empleados", "exposure": 78, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "hr-4",
+        "name": "Desarrollo de talento y planes de carrera",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 55,
+        "brief": "La IA sugiere planes de desarrollo, pero acompañar a alguien en su crecimiento requiere presencia humana.",
+        "detail": "Las herramientas de IA pueden recomendar formaciones, identificar gaps de competencias y sugerir movimientos laterales. Pero el desarrollo de talento real implica conversaciones difíciles, mentoría y acompañamiento personalizado.",
+        "tasks": [
+          { "name": "Identificación de gaps de competencias", "exposure": 72, "direction": "aumentacion" },
+          { "name": "Recomendación de formaciones", "exposure": 80, "direction": "aumentacion" },
+          { "name": "Conversaciones de desarrollo", "exposure": 15, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "hr-5",
+        "name": "Gestión de conflictos y relaciones laborales",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 12,
+        "brief": "Cuando hay un conflicto entre un manager y su equipo, eres tú quien media. Eso es pura inteligencia emocional.",
+        "detail": "La mediación de conflictos, las conversaciones disciplinarias, la gestión de situaciones de acoso y los procesos de desvinculación requieren empatía, firmeza y habilidad interpersonal. Son las situaciones más humanas del trabajo de RRHH.",
+        "tasks": [
+          { "name": "Mediación de conflictos", "exposure": 8, "direction": "aumentacion" },
+          { "name": "Conversaciones disciplinarias", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Gestión de desvinculaciones", "exposure": 12, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "hr-6",
+        "name": "Consultoría estratégica a líderes",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 18,
+        "brief": "Cuando un director te pide consejo sobre cómo reorganizar su equipo, tu criterio vale más que cualquier informe.",
+        "detail": "El HRBP como partner estratégico asesora a líderes sobre estructura organizacional, gestión del cambio, sucesión y cultura. Este rol requiere credibilidad, conocimiento del negocio y capacidad de influencia que la IA no puede proporcionar.",
+        "tasks": [
+          { "name": "Asesoría sobre estructura organizacional", "exposure": 22, "direction": "aumentacion" },
+          { "name": "Planificación de sucesión", "exposure": 20, "direction": "aumentacion" },
+          { "name": "Coaching a managers", "exposure": 10, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "periodista",
+    "title": "Periodista",
+    "archetype": "conector",
+    "multiplier": 2.8,
+    "summary": "La IA genera noticias y sintetiza información a velocidad imposible. Tu valor reside en la investigación original, el acceso a fuentes y la capacidad de contar historias que importan.",
+    "blocks": [
+      {
+        "id": "per-1",
+        "name": "Redacción de noticias y artículos",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 85,
+        "brief": "La IA escribe noticias de agencia casi indistinguibles de las humanas. La redacción informativa básica se automatiza.",
+        "detail": "Los modelos de lenguaje generan noticias, crónicas y artículos informativos con precisión creciente. La cobertura rutinaria de eventos, datos económicos y resultados deportivos se automatiza — tu diferencial es el reportaje profundo.",
+        "tasks": [
+          { "name": "Noticias de agencia", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Artículos informativos", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Reportajes en profundidad", "exposure": 35, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "per-2",
+        "name": "Monitorización de fuentes y alertas",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 82,
+        "brief": "La IA monitoriza miles de fuentes en tiempo real y te alerta de lo relevante. Ya no necesitas estar pegado al wire.",
+        "detail": "Las herramientas de IA rastrean medios, redes sociales, documentos oficiales y bases de datos en tiempo real. La detección de noticias y la monitorización de temas se automatiza, permitiéndote dedicar más tiempo a la investigación.",
+        "tasks": [
+          { "name": "Monitorización de medios", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Alertas de breaking news", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Curación de fuentes relevantes", "exposure": 55, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "per-3",
+        "name": "Investigación periodística",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 62,
+        "brief": "La IA analiza documentos filtrados y cruza bases de datos. Tu olfato periodístico decide qué historia perseguir.",
+        "detail": "Las herramientas de IA pueden analizar grandes volúmenes de documentos, detectar patrones en datos públicos y cruzar información de múltiples fuentes. Pero decidir qué investigar, proteger fuentes y verificar información requiere juicio periodístico.",
+        "tasks": [
+          { "name": "Análisis de documentos", "exposure": 78, "direction": "aumentacion" },
+          { "name": "Cruce de bases de datos", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Verificación de hechos", "exposure": 45, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "per-4",
+        "name": "Verificación y fact-checking",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 58,
+        "brief": "La IA detecta inconsistencias y verifica datos, pero la responsabilidad editorial de publicar sigue siendo tuya.",
+        "detail": "Los modelos pueden cruzar declaraciones con hechos, detectar deepfakes y verificar datos. Sin embargo, la decisión editorial de qué publicar, cuándo y con qué matices implica responsabilidad profesional y ética periodística.",
+        "tasks": [
+          { "name": "Verificación de datos", "exposure": 72, "direction": "aumentacion" },
+          { "name": "Detección de desinformación", "exposure": 68, "direction": "aumentacion" },
+          { "name": "Decisión editorial", "exposure": 18, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "per-5",
+        "name": "Acceso a fuentes y networking",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 12,
+        "brief": "Tu agenda de contactos y la confianza que has construido con tus fuentes son tu activo más valioso.",
+        "detail": "El acceso a fuentes confidenciales, la capacidad de generar confianza para que alguien hable off-the-record y la red de contactos que has construido durante años son irremplazables. La IA no puede cultivar relaciones humanas.",
+        "tasks": [
+          { "name": "Cultivo de fuentes", "exposure": 8, "direction": "aumentacion" },
+          { "name": "Entrevistas con fuentes confidenciales", "exposure": 5, "direction": "aumentacion" },
+          { "name": "Networking profesional", "exposure": 10, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "per-6",
+        "name": "Narrativa y storytelling",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 25,
+        "brief": "Contar una historia que cambie la conversación pública es un arte. La IA informa, tú narras.",
+        "detail": "La capacidad de convertir datos e investigación en una narrativa que mueva a la acción, que genere debate público y que conecte emocionalmente con el lector es lo que separa al periodismo del procesamiento de información.",
+        "tasks": [
+          { "name": "Construcción narrativa", "exposure": 28, "direction": "aumentacion" },
+          { "name": "Selección de ángulo", "exposure": 18, "direction": "aumentacion" },
+          { "name": "Escritura con voz propia", "exposure": 22, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "customer-service-manager",
+    "title": "Customer Service Manager",
+    "archetype": "pionero",
+    "multiplier": 3.8,
+    "summary": "La IA resuelve la mayoría de tickets de soporte sin intervención humana. Tu rol evoluciona de gestionar volumen a diseñar la experiencia, gestionar excepciones y liderar la transformación del equipo.",
+    "blocks": [
+      {
+        "id": "csm-1",
+        "name": "Resolución de tickets nivel 1",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 93,
+        "brief": "Los chatbots resuelven el 80% de las consultas. El soporte de nivel 1 como lo conocías está desapareciendo.",
+        "detail": "Los agentes de IA resuelven consultas frecuentes, procesan devoluciones, actualizan datos y guían troubleshooting básico. La resolución automática de tickets rutinarios avanza rápidamente y redefine el tamaño y el perfil de tu equipo.",
+        "tasks": [
+          { "name": "Respuesta a FAQs", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Procesamiento de solicitudes estándar", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Troubleshooting básico", "exposure": 88, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "csm-2",
+        "name": "Análisis de métricas de servicio",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 85,
+        "brief": "La IA genera dashboards de CSAT, NPS y tiempo de resolución automáticamente. Tu valor es actuar sobre los datos.",
+        "detail": "Las plataformas de soporte con IA generan informes de rendimiento, detectan tendencias de insatisfacción y predicen picos de volumen. La recopilación y visualización de métricas se automatiza — tu rol es interpretar y actuar.",
+        "tasks": [
+          { "name": "Generación de informes de servicio", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Análisis de tendencias de CSAT", "exposure": 82, "direction": "automatizacion" },
+          { "name": "Identificación de problemas sistémicos", "exposure": 55, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "csm-3",
+        "name": "Diseño de experiencia de servicio",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 58,
+        "brief": "La IA ejecuta el servicio, pero diseñar la experiencia que diferencia a tu empresa sigue requiriendo visión humana.",
+        "detail": "Diseñar flujos de atención, definir cuándo escalar a humano, crear guías de tono y voz, y decidir la experiencia omnicanal son decisiones estratégicas. La IA ejecuta, pero el diseño de la experiencia es tuyo.",
+        "tasks": [
+          { "name": "Diseño de flujos de atención", "exposure": 60, "direction": "aumentacion" },
+          { "name": "Definición de políticas de escalado", "exposure": 45, "direction": "aumentacion" },
+          { "name": "Experiencia omnicanal", "exposure": 50, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "csm-4",
+        "name": "Gestión de crisis y casos complejos",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 52,
+        "brief": "Cuando un cliente VIP amenaza con irse o un problema se viraliza, tú entras en acción. La IA no gestiona crisis.",
+        "detail": "Los casos escalados, los clientes insatisfechos de alto valor y las crisis de reputación en redes sociales requieren juicio, empatía y capacidad de tomar decisiones rápidas bajo presión. La IA identifica la crisis, tú la resuelves.",
+        "tasks": [
+          { "name": "Gestión de escalados", "exposure": 30, "direction": "aumentacion" },
+          { "name": "Recuperación de clientes en riesgo", "exposure": 22, "direction": "aumentacion" },
+          { "name": "Gestión de crisis en redes", "exposure": 35, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "csm-5",
+        "name": "Liderazgo y desarrollo del equipo",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 18,
+        "brief": "Tu equipo se transforma radicalmente con la IA. Liderarles en esa transición es tu mayor reto y tu mayor valor.",
+        "detail": "La transformación del equipo de servicio implica redefinir roles, desarrollar nuevas competencias, gestionar la ansiedad ante la automatización y motivar al equipo. Es un desafío de liderazgo puro.",
+        "tasks": [
+          { "name": "Redefinición de roles", "exposure": 15, "direction": "aumentacion" },
+          { "name": "Desarrollo de nuevas competencias", "exposure": 20, "direction": "aumentacion" },
+          { "name": "Gestión del cambio en el equipo", "exposure": 10, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "csm-6",
+        "name": "Voz del cliente hacia la organización",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 25,
+        "brief": "Tú eres la voz del cliente dentro de la empresa. Cuando producto necesita saber qué falla, tú tienes las respuestas.",
+        "detail": "Trasladar los insights de servicio a producto, ingeniería y marketing para mejorar el producto es una función estratégica. La IA sintetiza datos, pero influir internamente para que se actúe sobre ellos requiere credibilidad y relación.",
+        "tasks": [
+          { "name": "Síntesis de feedback para producto", "exposure": 65, "direction": "aumentacion" },
+          { "name": "Influencia en roadmap de producto", "exposure": 15, "direction": "aumentacion" },
+          { "name": "Reporting a dirección", "exposure": 40, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "marketing-analyst",
+    "title": "Marketing Analyst",
+    "archetype": "pionero",
+    "multiplier": 4.0,
+    "summary": "La IA automatiza la mayor parte del análisis de marketing, desde la atribución hasta el reporting. Tu valor se concentra en la interpretación estratégica y la conexión con decisiones de negocio.",
+    "blocks": [
+      {
+        "id": "ma-1",
+        "name": "Análisis de campañas y atribución",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 90,
+        "brief": "La IA mide el ROI de cada campaña en tiempo real. El reporting de performance marketing se automatiza.",
+        "detail": "Las plataformas de IA analizan el rendimiento de campañas multicanal, calculan atribución y generan informes de ROI automáticamente. El análisis rutinario de performance que antes consumía horas se reduce a validación.",
+        "tasks": [
+          { "name": "Cálculo de ROI por canal", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Modelos de atribución", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Informes de rendimiento", "exposure": 90, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "ma-2",
+        "name": "Segmentación y análisis de audiencias",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 84,
+        "brief": "La IA segmenta audiencias con datos de comportamiento en tiempo real. La segmentación manual pierde sentido.",
+        "detail": "Los modelos de IA crean segmentos dinámicos basados en comportamiento, predicen propensión de compra y personalizan mensajes automáticamente. La segmentación como tarea manual se automatiza — tu rol es definir la estrategia de audiencias.",
+        "tasks": [
+          { "name": "Creación de segmentos", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Análisis de comportamiento", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Estrategia de personalización", "exposure": 45, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ma-3",
+        "name": "Forecasting y modelado predictivo",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 72,
+        "brief": "La IA predice conversiones, churn y LTV con precisión creciente. Tu valor está en decidir qué hacer con esas predicciones.",
+        "detail": "Los modelos predictivos pueden forecaster métricas clave de marketing con alta precisión. Sin embargo, traducir predicciones en acciones concretas, ajustar presupuestos y comunicar implicaciones a negocio requiere juicio humano.",
+        "tasks": [
+          { "name": "Predicción de métricas clave", "exposure": 82, "direction": "aumentacion" },
+          { "name": "Modelado de escenarios", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Recomendaciones de presupuesto", "exposure": 40, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ma-4",
+        "name": "Testing y experimentación",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 65,
+        "brief": "La IA ejecuta A/B tests y analiza resultados. Tú decides qué hipótesis merece la pena probar.",
+        "detail": "Las herramientas de IA pueden diseñar experimentos, calcular tamaño de muestra, analizar significancia estadística y generar informes. Pero la formulación de hipótesis relevantes y la interpretación estratégica de resultados son tuyas.",
+        "tasks": [
+          { "name": "Diseño de experimentos", "exposure": 70, "direction": "aumentacion" },
+          { "name": "Análisis estadístico de resultados", "exposure": 80, "direction": "aumentacion" },
+          { "name": "Formulación de hipótesis", "exposure": 30, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ma-5",
+        "name": "Consultoría a equipos de marketing",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 22,
+        "brief": "Cuando el CMO pregunta dónde invertir el próximo millón, tu análisis y tu criterio son lo que cuenta.",
+        "detail": "La capacidad de traducir datos en recomendaciones accionables, de influir en la estrategia de marketing y de ser el puente entre datos y creatividad es tu diferencial. La IA proporciona los datos, tú proporcionas el juicio.",
+        "tasks": [
+          { "name": "Recomendaciones estratégicas", "exposure": 25, "direction": "aumentacion" },
+          { "name": "Presentación de insights", "exposure": 30, "direction": "aumentacion" },
+          { "name": "Alineación datos-creatividad", "exposure": 15, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ma-6",
+        "name": "Integración de datos multicanal",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 32,
+        "brief": "Unificar datos de 10 plataformas para tener una vista completa del cliente es complejo. La IA ayuda, pero tú arquitecturas.",
+        "detail": "La integración de datos de múltiples plataformas de marketing, CRM, web analytics y ventas requiere conocimiento técnico y de negocio. La IA automatiza conexiones, pero la arquitectura de datos y la gobernanza son competencias humanas.",
+        "tasks": [
+          { "name": "Conexión de plataformas", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Arquitectura de datos de marketing", "exposure": 35, "direction": "aumentacion" },
+          { "name": "Gobernanza y calidad de datos", "exposure": 28, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "paralegal",
+    "title": "Paralegal",
+    "archetype": "pionero",
+    "multiplier": 4.3,
+    "summary": "La IA automatiza las tareas que definen tu día a día: revisión documental, investigación y preparación de expedientes. Tu evolución pasa por desarrollar juicio legal y habilidades de gestión.",
+    "blocks": [
+      {
+        "id": "par-1",
+        "name": "Revisión y clasificación documental",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 93,
+        "brief": "La IA revisa y clasifica miles de documentos en horas. Esta tarea que definía tu rol se automatiza casi por completo.",
+        "detail": "Las plataformas de eDiscovery con IA clasifican documentos por relevancia, privilegio y categoría con alta precisión. La revisión documental masiva que antes requería equipos de paralegales se reduce drásticamente en tiempo y personal.",
+        "tasks": [
+          { "name": "Clasificación de documentos", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Revisión de relevancia", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Extracción de datos clave", "exposure": 90, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "par-2",
+        "name": "Investigación legal básica",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 88,
+        "brief": "La IA busca jurisprudencia, leyes y normativa en segundos. La investigación legal rutinaria se comoditiza.",
+        "detail": "Los modelos de IA legal realizan búsquedas jurisprudenciales, identifican normativa aplicable y generan resúmenes de legislación. La investigación que antes era el core de tu trabajo se automatiza — tu valor migra al análisis crítico.",
+        "tasks": [
+          { "name": "Búsqueda de legislación", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Compilación de jurisprudencia", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Resúmenes de normativa", "exposure": 85, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "par-3",
+        "name": "Preparación de expedientes y escritos",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 72,
+        "brief": "La IA genera borradores de escritos y organiza expedientes. Tu valor está en la revisión y el control de calidad.",
+        "detail": "Los modelos de IA pueden generar borradores de escritos, organizar documentación por expediente y preparar índices. La producción documental se acelera enormemente — tu rol evoluciona hacia el control de calidad y la supervisión.",
+        "tasks": [
+          { "name": "Generación de borradores", "exposure": 82, "direction": "aumentacion" },
+          { "name": "Organización de expedientes", "exposure": 78, "direction": "aumentacion" },
+          { "name": "Control de calidad documental", "exposure": 45, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "par-4",
+        "name": "Gestión de plazos y procedimientos",
+        "category": "transformacion",
+        "direction": "automatizacion",
+        "score": 75,
+        "brief": "La IA controla plazos procesales y genera alertas. El seguimiento de procedimientos se automatiza.",
+        "detail": "Las herramientas de gestión legal con IA monitorizan plazos, generan recordatorios y rastrean el estado de procedimientos. La gestión administrativa de casos se automatiza, reduciendo el riesgo de incumplimiento de plazos.",
+        "tasks": [
+          { "name": "Control de plazos procesales", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Seguimiento de procedimientos", "exposure": 80, "direction": "automatizacion" },
+          { "name": "Coordinación con juzgados", "exposure": 35, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "par-5",
+        "name": "Soporte directo al abogado",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 28,
+        "brief": "Conocer al abogado, anticipar qué necesita y tener listo lo que va a pedir es tu valor invisible.",
+        "detail": "El soporte personalizado al abogado implica conocer su estilo de trabajo, anticipar necesidades, gestionar la relación con clientes y actuar como su mano derecha. Es una relación de confianza que va más allá de la tarea.",
+        "tasks": [
+          { "name": "Anticipación de necesidades", "exposure": 20, "direction": "aumentacion" },
+          { "name": "Gestión de la agenda del abogado", "exposure": 35, "direction": "aumentacion" },
+          { "name": "Interacción con clientes", "exposure": 22, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "par-6",
+        "name": "Asistencia en audiencias y actos procesales",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 20,
+        "brief": "En la sala, tu apoyo logístico y tu conocimiento del expediente son cruciales. Esa presencia es irremplazable.",
+        "detail": "La preparación de materiales para audiencias, el soporte en tiempo real durante actos procesales y la toma de notas detallada durante vistas son actividades que requieren presencia física y conocimiento profundo del caso.",
+        "tasks": [
+          { "name": "Preparación de materiales para audiencia", "exposure": 60, "direction": "aumentacion" },
+          { "name": "Soporte en tiempo real", "exposure": 12, "direction": "aumentacion" },
+          { "name": "Documentación de audiencias", "exposure": 55, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "data-entry-specialist",
+    "title": "Data Entry Specialist",
+    "archetype": "pionero",
+    "multiplier": 4.5,
+    "summary": "La IA automatiza la introducción, validación y procesamiento de datos casi por completo. Tu evolución pasa por convertirte en supervisor de calidad de datos o migrar hacia roles de análisis.",
+    "blocks": [
+      {
+        "id": "de-1",
+        "name": "Introducción manual de datos",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 95,
+        "brief": "La IA lee documentos, extrae datos y los introduce en sistemas automáticamente. Esta tarea se automatiza casi al 100%.",
+        "detail": "Los modelos de OCR y procesamiento de documentos con IA extraen datos de formularios, facturas, contratos y documentos escaneados con alta precisión. La introducción manual de datos como actividad humana tiene los días contados.",
+        "tasks": [
+          { "name": "Transcripción de documentos", "exposure": 97, "direction": "automatizacion" },
+          { "name": "Introducción de datos en sistemas", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Digitalización de formularios", "exposure": 94, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "de-2",
+        "name": "Validación y verificación de datos",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 88,
+        "brief": "La IA detecta errores, duplicados e inconsistencias automáticamente. La validación manual se reduce al mínimo.",
+        "detail": "Los sistemas de IA pueden cruzar datos entre fuentes, detectar anomalías, identificar duplicados y validar formatos. La verificación de calidad de datos que antes requería revisión humana línea por línea se automatiza con reglas inteligentes.",
+        "tasks": [
+          { "name": "Detección de duplicados", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Validación de formatos", "exposure": 92, "direction": "automatizacion" },
+          { "name": "Cruce de datos entre fuentes", "exposure": 88, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "de-3",
+        "name": "Procesamiento de facturas y documentos",
+        "category": "transformacion",
+        "direction": "automatizacion",
+        "score": 90,
+        "brief": "La IA procesa facturas de principio a fin. El procesamiento documental se automatiza casi completamente.",
+        "detail": "Las plataformas de automatización de documentos con IA leen facturas, extraen datos relevantes, los validan contra pedidos y los introducen en el ERP. El procesamiento manual de documentos financieros se reduce a excepciones.",
+        "tasks": [
+          { "name": "Lectura de facturas", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Matching con pedidos", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Introducción en ERP", "exposure": 88, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "de-4",
+        "name": "Migración y limpieza de bases de datos",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 72,
+        "brief": "La IA limpia y migra datos a escala, pero cuando los datos son caóticos, alguien tiene que tomar decisiones.",
+        "detail": "Las herramientas de IA pueden automatizar la limpieza y migración de datos entre sistemas. Sin embargo, cuando los datos son ambiguos, inconsistentes o requieren juicio sobre qué conservar, la supervisión humana sigue siendo necesaria.",
+        "tasks": [
+          { "name": "Limpieza automatizada de datos", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Resolución de ambigüedades", "exposure": 45, "direction": "aumentacion" },
+          { "name": "Validación post-migración", "exposure": 55, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "de-5",
+        "name": "Supervisión de calidad de datos",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 30,
+        "brief": "Supervisar que los datos automatizados sean correctos es tu nueva función. Tu ojo para el detalle sigue valiendo.",
+        "detail": "A medida que la introducción de datos se automatiza, surge la necesidad de supervisar la calidad del output. Tu conocimiento de los datos, tu atención al detalle y tu capacidad de detectar errores sutiles se convierten en tu nuevo valor.",
+        "tasks": [
+          { "name": "Auditoría de datos automatizados", "exposure": 35, "direction": "aumentacion" },
+          { "name": "Definición de reglas de calidad", "exposure": 28, "direction": "aumentacion" },
+          { "name": "Reporte de excepciones", "exposure": 40, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "de-6",
+        "name": "Gestión de excepciones y casos especiales",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 25,
+        "brief": "Cuando el documento está mal escaneado o los datos no encajan, alguien tiene que resolver el caso. Ese eres tú.",
+        "detail": "Los documentos ilegibles, los formatos no estándar y los casos que la IA no puede resolver con confianza requieren intervención humana. Tu conocimiento del contexto y tu capacidad de resolver ambigüedades son tu último bastión.",
+        "tasks": [
+          { "name": "Resolución de documentos ilegibles", "exposure": 30, "direction": "aumentacion" },
+          { "name": "Procesamiento de formatos no estándar", "exposure": 35, "direction": "aumentacion" },
+          { "name": "Toma de decisiones sobre datos ambiguos", "exposure": 20, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ingeniero-prompts",
+    "title": "Ingeniero de Prompts",
+    "archetype": "acelerado",
+    "multiplier": 3.7,
+    "summary": "Paradójicamente, la IA mejora su propio uso. Tu valor está en entender los modelos a fondo, diseñar sistemas de prompts escalables y conectar capacidades de IA con problemas de negocio reales.",
+    "blocks": [
+      {
+        "id": "ip-1",
+        "name": "Diseño y optimización de prompts",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 78,
+        "brief": "La IA optimiza prompts automáticamente con técnicas como DSPy. El prompt engineering manual se comoditiza.",
+        "detail": "Los frameworks de optimización automática de prompts mejoran rápidamente. La escritura manual de prompts individuales pierde valor — tu diferencial migra hacia el diseño de sistemas de prompts y la arquitectura de flujos de IA.",
+        "tasks": [
+          { "name": "Escritura de prompts individuales", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Optimización iterativa", "exposure": 78, "direction": "automatizacion" },
+          { "name": "Diseño de templates escalables", "exposure": 45, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ip-2",
+        "name": "Evaluación y benchmarking de modelos",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 65,
+        "brief": "La IA genera evals automáticamente, pero diseñar qué evaluar y cómo interpretarlo requiere tu criterio.",
+        "detail": "Las herramientas de evaluación automática de modelos avanzan rápido. Sin embargo, definir qué métricas importan para cada caso de uso, diseñar evaluaciones significativas e interpretar resultados en contexto de negocio es tu aportación clave.",
+        "tasks": [
+          { "name": "Diseño de frameworks de evaluación", "exposure": 50, "direction": "aumentacion" },
+          { "name": "Benchmarking de modelos", "exposure": 72, "direction": "aumentacion" },
+          { "name": "Interpretación de resultados", "exposure": 35, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ip-3",
+        "name": "Arquitectura de flujos de IA",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 58,
+        "brief": "Diseñar cómo encadenar llamadas a modelos, gestionar contexto y orquestar agentes es donde tu conocimiento brilla.",
+        "detail": "La arquitectura de sistemas de IA — cadenas de prompts, RAG, agentes, herramientas — requiere entender las capacidades y limitaciones de los modelos. Diseñar flujos robustos y escalables es una competencia técnica de alto valor.",
+        "tasks": [
+          { "name": "Diseño de cadenas de prompts", "exposure": 55, "direction": "aumentacion" },
+          { "name": "Implementación de RAG", "exposure": 62, "direction": "aumentacion" },
+          { "name": "Orquestación de agentes", "exposure": 48, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ip-4",
+        "name": "Documentación y estandarización",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 82,
+        "brief": "La IA genera documentación de prompts y guías de uso. La documentación técnica se automatiza.",
+        "detail": "Los modelos de IA pueden generar documentación técnica, guías de uso y mejores prácticas para sistemas de prompts. La producción documental se automatiza — tu valor está en definir los estándares y la gobernanza.",
+        "tasks": [
+          { "name": "Documentación de prompts", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Guías de mejores prácticas", "exposure": 82, "direction": "automatizacion" },
+          { "name": "Definición de estándares", "exposure": 40, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ip-5",
+        "name": "Consultoría interna sobre IA",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 25,
+        "brief": "Cuando un equipo quiere usar IA pero no sabe por dónde empezar, tú eres su guía. Eso es consultoría pura.",
+        "detail": "Asesorar a equipos no técnicos sobre cómo integrar IA en sus flujos de trabajo, identificar casos de uso viables y gestionar expectativas requiere habilidades de comunicación y conocimiento transversal del negocio.",
+        "tasks": [
+          { "name": "Identificación de casos de uso", "exposure": 30, "direction": "aumentacion" },
+          { "name": "Workshops de formación", "exposure": 20, "direction": "aumentacion" },
+          { "name": "Gestión de expectativas", "exposure": 15, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "ip-6",
+        "name": "Seguridad y ética de IA",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 30,
+        "brief": "Proteger contra jailbreaks, sesgos y usos indebidos requiere criterio ético y técnico. La IA necesita guardianes humanos.",
+        "detail": "La seguridad de sistemas de IA — red teaming, detección de sesgos, prevención de alucinaciones y cumplimiento ético — requiere juicio humano sobre lo que es aceptable. Diseñar guardarraíles y políticas de uso responsable es tu aportación crítica.",
+        "tasks": [
+          { "name": "Red teaming de modelos", "exposure": 40, "direction": "aumentacion" },
+          { "name": "Evaluación de sesgos", "exposure": 35, "direction": "aumentacion" },
+          { "name": "Diseño de guardarraíles", "exposure": 25, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "contable",
+    "title": "Contable",
+    "archetype": "pionero",
+    "multiplier": 4.2,
+    "summary": "La IA automatiza el registro, la conciliación y el reporting contable. Tu evolución pasa por convertirte en analista financiero, supervisor de calidad o especialista en normativa compleja.",
+    "blocks": [
+      {
+        "id": "con-1",
+        "name": "Registro de asientos contables",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 94,
+        "brief": "La IA registra asientos automáticamente a partir de facturas y movimientos bancarios. El registro manual desaparece.",
+        "detail": "Las plataformas contables con IA leen facturas, clasifican gastos, registran asientos y concilian movimientos bancarios automáticamente. El registro contable manual, que era el core de tu día a día, se automatiza casi por completo.",
+        "tasks": [
+          { "name": "Registro de facturas", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Clasificación de gastos", "exposure": 93, "direction": "automatizacion" },
+          { "name": "Asientos de nómina", "exposure": 90, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "con-2",
+        "name": "Conciliación bancaria",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 92,
+        "brief": "La IA concilia cuentas bancarias en tiempo real. Las partidas pendientes se resuelven automáticamente.",
+        "detail": "Los sistemas de IA concilian movimientos bancarios con asientos contables, detectan discrepancias y sugieren resoluciones. La conciliación bancaria como tarea manual prácticamente desaparece.",
+        "tasks": [
+          { "name": "Matching de movimientos", "exposure": 95, "direction": "automatizacion" },
+          { "name": "Detección de discrepancias", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Resolución de partidas pendientes", "exposure": 72, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "con-3",
+        "name": "Preparación de impuestos y declaraciones",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 75,
+        "brief": "La IA prepara declaraciones fiscales y calcula impuestos, pero la normativa compleja sigue necesitando tu interpretación.",
+        "detail": "Las herramientas de IA generan declaraciones de impuestos, calculan retenciones y preparan modelos fiscales. Sin embargo, la planificación fiscal, los casos especiales y la interpretación de normativa ambigua requieren conocimiento experto.",
+        "tasks": [
+          { "name": "Cálculo de impuestos estándar", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Preparación de declaraciones", "exposure": 82, "direction": "aumentacion" },
+          { "name": "Planificación fiscal", "exposure": 35, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "con-4",
+        "name": "Reporting y cierre contable",
+        "category": "transformacion",
+        "direction": "automatizacion",
+        "score": 82,
+        "brief": "Los cierres mensuales se automatizan. La IA genera balances, cuentas de resultados y memorias.",
+        "detail": "La generación automática de estados financieros, ratios y reporting periódico se automatiza con IA. El cierre contable que antes requería días de trabajo intensivo se comprime a horas de supervisión y validación.",
+        "tasks": [
+          { "name": "Generación de estados financieros", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Cálculo de ratios", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Revisión y ajustes de cierre", "exposure": 55, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "con-5",
+        "name": "Asesoramiento contable a la empresa",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 25,
+        "brief": "Cuando el director pregunta cómo contabilizar una operación compleja, tu criterio profesional es lo que vale.",
+        "detail": "El asesoramiento sobre tratamiento contable de operaciones complejas, la interpretación de normativa y las decisiones de política contable requieren juicio profesional. La IA informa, pero la decisión y la responsabilidad son tuyas.",
+        "tasks": [
+          { "name": "Consultas de tratamiento contable", "exposure": 30, "direction": "aumentacion" },
+          { "name": "Interpretación de normativa", "exposure": 28, "direction": "aumentacion" },
+          { "name": "Decisiones de política contable", "exposure": 18, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "con-6",
+        "name": "Relación con auditores y administración",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 20,
+        "brief": "Atender a los auditores, responder a requerimientos y gestionar inspecciones es trabajo relacional y de confianza.",
+        "detail": "La relación con auditores externos, la respuesta a requerimientos de la administración tributaria y la gestión de inspecciones fiscales requieren comunicación profesional, conocimiento del contexto y capacidad de negociación.",
+        "tasks": [
+          { "name": "Atención a auditores", "exposure": 22, "direction": "aumentacion" },
+          { "name": "Respuesta a requerimientos", "exposure": 35, "direction": "aumentacion" },
+          { "name": "Gestión de inspecciones", "exposure": 15, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "profesor-universitario",
+    "title": "Profesor Universitario",
+    "archetype": "conector",
+    "multiplier": 2.4,
+    "summary": "La IA transforma cómo creas contenido y evalúas, pero la inspiración, la mentoría y el pensamiento crítico que transmites a tus alumnos son tu legado irremplazable.",
+    "blocks": [
+      {
+        "id": "prof-1",
+        "name": "Preparación de material didáctico",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 83,
+        "brief": "La IA genera presentaciones, ejercicios y material de clase en minutos. La producción de contenido educativo se acelera.",
+        "detail": "Los modelos de IA crean presentaciones, diseñan ejercicios, generan casos de estudio y adaptan material a diferentes niveles. La producción de material didáctico que antes consumía horas se reduce a edición y personalización.",
+        "tasks": [
+          { "name": "Creación de presentaciones", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Diseño de ejercicios", "exposure": 82, "direction": "automatizacion" },
+          { "name": "Adaptación de material por nivel", "exposure": 75, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "prof-2",
+        "name": "Evaluación y corrección",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 80,
+        "brief": "La IA corrige exámenes, evalúa trabajos y genera feedback personalizado. La corrección masiva se automatiza.",
+        "detail": "Los sistemas de IA pueden evaluar respuestas, corregir ejercicios, detectar plagio y generar feedback detallado. La corrección de exámenes y trabajos de cientos de alumnos se automatiza — tu valor está en el feedback cualitativo profundo.",
+        "tasks": [
+          { "name": "Corrección de exámenes", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Evaluación de trabajos", "exposure": 78, "direction": "aumentacion" },
+          { "name": "Detección de plagio e IA", "exposure": 72, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "prof-3",
+        "name": "Investigación y publicación",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 68,
+        "brief": "La IA acelera tu revisión bibliográfica y ayuda en la redacción, pero la pregunta de investigación original es tuya.",
+        "detail": "Las herramientas de IA revisan literatura, generan borradores de papers y analizan datos de investigación. Sin embargo, formular preguntas de investigación originales, diseñar metodologías y contribuir al conocimiento requiere pensamiento crítico humano.",
+        "tasks": [
+          { "name": "Revisión bibliográfica", "exposure": 82, "direction": "aumentacion" },
+          { "name": "Redacción de papers", "exposure": 65, "direction": "aumentacion" },
+          { "name": "Formulación de hipótesis de investigación", "exposure": 25, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "prof-4",
+        "name": "Docencia presencial e interacción",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 15,
+        "brief": "Inspirar a un aula llena de estudiantes, provocar debate y encender curiosidad es un arte profundamente humano.",
+        "detail": "La docencia presencial implica leer al grupo, adaptar la explicación en tiempo real, responder preguntas inesperadas y crear momentos de aprendizaje significativo. La presencia del profesor como modelo intelectual es irremplazable.",
+        "tasks": [
+          { "name": "Clases magistrales", "exposure": 12, "direction": "aumentacion" },
+          { "name": "Dinamización de debates", "exposure": 8, "direction": "aumentacion" },
+          { "name": "Respuesta a preguntas en tiempo real", "exposure": 18, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "prof-5",
+        "name": "Mentoría y dirección de trabajos",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 18,
+        "brief": "Dirigir una tesis o mentorizar a un alumno brillante es una relación que transforma carreras. Eso no lo hace la IA.",
+        "detail": "La dirección de tesis, la mentoría académica y el desarrollo del pensamiento crítico del alumno son relaciones de confianza y guía intelectual. El impacto de un buen mentor en la carrera de un estudiante es incalculable.",
+        "tasks": [
+          { "name": "Dirección de tesis", "exposure": 15, "direction": "aumentacion" },
+          { "name": "Mentoría de alumnos", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Orientación de carrera", "exposure": 12, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "prof-6",
+        "name": "Gestión académica y comités",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 55,
+        "brief": "La IA automatiza informes académicos, pero la política universitaria y los comités siguen siendo un juego humano.",
+        "detail": "La gestión académica implica participación en comités, evaluación de programas, acreditaciones y política universitaria. La IA puede generar informes y análisis, pero la negociación institucional es inherentemente humana.",
+        "tasks": [
+          { "name": "Generación de informes académicos", "exposure": 78, "direction": "aumentacion" },
+          { "name": "Participación en comités", "exposure": 12, "direction": "aumentacion" },
+          { "name": "Evaluación de programas", "exposure": 45, "direction": "aumentacion" }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "arquitecto",
+    "title": "Arquitecto",
+    "archetype": "estratega",
+    "multiplier": 2.5,
+    "summary": "La IA genera planos, renders y cálculos a velocidad sin precedentes. Pero la visión espacial, la relación con el cliente y la responsabilidad sobre la habitabilidad son inherentemente tuyas.",
+    "blocks": [
+      {
+        "id": "arq-1",
+        "name": "Generación de planos y documentación técnica",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 82,
+        "brief": "La IA genera planos técnicos y documentación de proyecto cada vez más precisos. El delineado se automatiza.",
+        "detail": "Las herramientas de IA generan planos a partir de sketches, calculan superficies, generan mediciones y producen documentación técnica. El trabajo de delineado y producción documental que antes requería semanas se comprime drásticamente.",
+        "tasks": [
+          { "name": "Delineado y planos técnicos", "exposure": 88, "direction": "automatizacion" },
+          { "name": "Cálculo de superficies y mediciones", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Documentación de proyecto", "exposure": 78, "direction": "automatizacion" }
+        ]
+      },
+      {
+        "id": "arq-2",
+        "name": "Renders y visualización 3D",
+        "category": "presion",
+        "direction": "automatizacion",
+        "score": 85,
+        "brief": "La IA genera renders fotorrealistas en minutos. La visualización arquitectónica se democratiza por completo.",
+        "detail": "Los modelos de IA generativa crean renders fotorrealistas, recorridos virtuales y visualizaciones de proyecto con calidad profesional. La producción de renders como servicio especializado pierde valor — el concepto detrás de la imagen sigue siendo tuyo.",
+        "tasks": [
+          { "name": "Generación de renders", "exposure": 90, "direction": "automatizacion" },
+          { "name": "Recorridos virtuales", "exposure": 85, "direction": "automatizacion" },
+          { "name": "Dirección artística visual", "exposure": 35, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "arq-3",
+        "name": "Diseño conceptual y creativo",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 58,
+        "brief": "La IA genera opciones de diseño infinitas. Tu criterio estético y funcional es lo que selecciona la correcta.",
+        "detail": "Los modelos generativos pueden producir miles de variaciones de diseño en minutos. Sin embargo, el diseño conceptual que integra contexto, programa funcional, normativa y visión estética requiere tu formación y criterio profesional.",
+        "tasks": [
+          { "name": "Exploración de conceptos", "exposure": 70, "direction": "aumentacion" },
+          { "name": "Integración programa-contexto", "exposure": 35, "direction": "aumentacion" },
+          { "name": "Decisiones estéticas y funcionales", "exposure": 22, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "arq-4",
+        "name": "Cumplimiento normativo y cálculos",
+        "category": "transformacion",
+        "direction": "aumentacion",
+        "score": 68,
+        "brief": "La IA verifica cumplimiento normativo automáticamente, pero interpretar la norma en casos ambiguos es tu responsabilidad.",
+        "detail": "Las herramientas de IA verifican cumplimiento de CTE, accesibilidad y urbanismo. Sin embargo, la interpretación de normativa en casos complejos, la negociación con la administración y la responsabilidad profesional son inherentemente humanas.",
+        "tasks": [
+          { "name": "Verificación de CTE", "exposure": 80, "direction": "aumentacion" },
+          { "name": "Cálculos estructurales básicos", "exposure": 75, "direction": "aumentacion" },
+          { "name": "Interpretación normativa", "exposure": 30, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "arq-5",
+        "name": "Relación con el cliente y dirección de obra",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 15,
+        "brief": "Entender lo que el cliente quiere (no lo que dice) y dirigir la obra requiere presencia y liderazgo.",
+        "detail": "La relación con el cliente implica traducir deseos en programa funcional, gestionar expectativas de presupuesto y plazo, y tomar decisiones en obra. La dirección de obra requiere presencia física y resolución de problemas in situ.",
+        "tasks": [
+          { "name": "Reuniones con cliente", "exposure": 10, "direction": "aumentacion" },
+          { "name": "Toma de decisiones en obra", "exposure": 12, "direction": "aumentacion" },
+          { "name": "Gestión de presupuesto y plazos", "exposure": 25, "direction": "aumentacion" }
+        ]
+      },
+      {
+        "id": "arq-6",
+        "name": "Sostenibilidad y diseño bioclimático",
+        "category": "ventaja",
+        "direction": "aumentacion",
+        "score": 28,
+        "brief": "La IA simula rendimiento energético, pero diseñar edificios que respiren con su entorno es visión de arquitecto.",
+        "detail": "Las herramientas de simulación energética con IA optimizan orientación, materiales y sistemas. Pero la integración holística de sostenibilidad, confort, estética y coste en un diseño coherente requiere la visión integral del arquitecto.",
+        "tasks": [
+          { "name": "Simulación energética", "exposure": 78, "direction": "aumentacion" },
+          { "name": "Selección de materiales sostenibles", "exposure": 45, "direction": "aumentacion" },
+          { "name": "Diseño bioclimático integrado", "exposure": 20, "direction": "aumentacion" }
+        ]
+      }
+    ]
   }
 ]
