@@ -23,40 +23,74 @@ IMPORTANTE:
 - Si hay un match exacto o casi exacto, devuelve solo ese con peso 1.0
 - Si el rol es híbrido, combina hasta 3 roles del catálogo
 - Considera sinónimos, variaciones de seniority, y contexto de sector
-- Responde SOLO JSON válido, sin markdown ni explicaciones
+- Responde SOLO con este formato JSON exacto, sin markdown ni explicaciones:
+
+{"matches":[{"slug":"slug-del-rol","weight":1.0}],"detected_seniority":"junior|mid|senior|null","detected_sector":"nombre-sector|null"}
+
+Ejemplo de respuesta para "Ingeniero de datos senior":
+{"matches":[{"slug":"data-analyst","weight":0.7},{"slug":"desarrollador-software","weight":0.3}],"detected_seniority":"senior","detected_sector":"tech"}
 
 CATÁLOGO DE ROLES DISPONIBLES:
 ${catalogList}`
 
   const user = `Rol: "${roleInput}"`
 
-  const raw = await llm(system, user, { maxTokens: 256 })
-
   try {
-    const cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim()
-    const parsed = JSON.parse(cleaned) as MapperResult
+    const raw = await llm(system, user, { maxTokens: 256 })
 
-    // Validate that all slugs exist in catalog
-    const validMatches = parsed.matches.filter(m => slugs.includes(m.slug))
+    // Clean markdown wrapping if present
+    const cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim()
+
+    // Try to parse, handling alternative key names the LLM might use
+    const obj = JSON.parse(cleaned)
+
+    // Normalize: accept various key names
+    const matchesArray: { slug: string; weight: number }[] = []
+    const rawMatches = obj.matches ?? obj.roles ?? obj.results ?? []
+
+    for (const m of rawMatches) {
+      const slug = m.slug ?? m.codigo ?? m.role ?? m.id ?? ''
+      const weight = m.weight ?? m.peso ?? m.relevance ?? m.relevancia ?? 1.0
+      if (slug) matchesArray.push({ slug: String(slug), weight: Number(weight) })
+    }
+
+    // Validate that slugs exist in catalog
+    const validMatches = matchesArray.filter(m => slugs.includes(m.slug))
+
     if (validMatches.length === 0) {
-      // Fallback: return first catalog entry
-      return { matches: [{ slug: slugs[0], weight: 1.0 }], detected_seniority: null, detected_sector: null }
+      return fallbackMatch(roleInput, slugs)
     }
 
     // Renormalize weights
     const totalWeight = validMatches.reduce((sum, m) => sum + m.weight, 0)
-    validMatches.forEach(m => { m.weight = m.weight / totalWeight })
-
-    return { ...parsed, matches: validMatches }
-  } catch {
-    // If JSON parsing fails, try simple slug matching
-    const normalizedInput = roleInput.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-    const directMatch = slugs.find(s => normalizedInput.includes(s.replace(/-/g, ' ')))
+    if (totalWeight > 0) {
+      validMatches.forEach(m => { m.weight = m.weight / totalWeight })
+    }
 
     return {
-      matches: [{ slug: directMatch ?? slugs[0], weight: 1.0 }],
-      detected_seniority: null,
-      detected_sector: null,
+      matches: validMatches,
+      detected_seniority: obj.detected_seniority ?? obj.seniority ?? null,
+      detected_sector: obj.detected_sector ?? obj.sector ?? null,
     }
+  } catch {
+    return fallbackMatch(roleInput, slugs)
+  }
+}
+
+/** Fallback: try substring matching against catalog slugs */
+function fallbackMatch(roleInput: string, slugs: string[]): MapperResult {
+  const normalizedInput = roleInput
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+
+  const directMatch = slugs.find(s =>
+    normalizedInput.includes(s.replace(/-/g, ' '))
+  )
+
+  return {
+    matches: [{ slug: directMatch ?? slugs[0], weight: 1.0 }],
+    detected_seniority: null,
+    detected_sector: null,
   }
 }
