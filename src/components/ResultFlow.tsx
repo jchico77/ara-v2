@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useCallback, useEffect, useRef } from 'react'
+import { useState, useCallback, useEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { findRole } from '@/lib/catalog'
 import type { FunctionalBlock, RoleProfile } from '@/lib/types'
@@ -23,8 +23,7 @@ export function ResultFlow({ slug }: Props) {
   const [profile, setProfile] = useState<RoleProfile | null>(null)
   const [selectedBlock, setSelectedBlock] = useState<FunctionalBlock | null>(null)
   const [loadingDone, setLoadingDone] = useState(false)
-  const apiDone = useRef(false)
-  const apiResult = useRef<RoleProfile | null>(null)
+  const [apiResult, setApiResult] = useState<RoleProfile | null>(null)
 
   // Dehyphenate slug back to role text for the API call
   const roleInput = slug.replace(/-/g, ' ')
@@ -44,53 +43,27 @@ export function ResultFlow({ slug }: Props) {
         if (!res.ok) throw new Error(`API error: ${res.status}`)
 
         const data = await res.json() as RoleProfile
-        if (cancelled) return
-
-        apiResult.current = data
-        apiDone.current = true
-
-        // If loading animation already finished, show result immediately
-        if (loadingDone) {
-          setProfile(data)
-          setPhase('result')
-        }
+        if (!cancelled) setApiResult(data)
       } catch {
-        if (cancelled) return
-        // Fallback to local catalog
-        const fallback = findRole(slug)
-        apiResult.current = fallback
-        apiDone.current = true
-
-        if (loadingDone) {
-          setProfile(fallback)
-          setPhase('result')
-        }
+        if (!cancelled) setApiResult(findRole(slug))
       }
     }
 
     fetchProfile()
     return () => { cancelled = true }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [slug, roleInput])
+
+  // Transition to result when BOTH animation and API are done
+  useEffect(() => {
+    if (loadingDone && apiResult) {
+      setProfile(apiResult)
+      setPhase('result')
+    }
+  }, [loadingDone, apiResult])
 
   const handleLoadingComplete = useCallback(() => {
     setLoadingDone(true)
-
-    if (apiDone.current && apiResult.current) {
-      // API already finished — show result
-      setProfile(apiResult.current)
-      setPhase('result')
-    }
-    // else: wait for API to complete (useEffect will trigger the transition)
   }, [])
-
-  // Handle case where API finishes after loading animation
-  useEffect(() => {
-    if (loadingDone && apiDone.current && apiResult.current && !profile) {
-      setProfile(apiResult.current)
-      setPhase('result')
-    }
-  }, [loadingDone, profile])
 
   const potentialMultiplier = profile ? Math.min(profile.multiplier * 1.45, 5.0) : 0
 
