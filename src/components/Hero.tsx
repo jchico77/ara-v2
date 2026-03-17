@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import { RoleInput } from './RoleInput'
 
 const container = {
@@ -84,13 +85,21 @@ export function Hero() {
         </motion.div>
 
         {/* Credibility footer */}
-        <motion.p
+        <motion.div
           variants={item}
           className="mt-10 text-xs text-center leading-relaxed"
           style={{ color: 'rgba(136,149,176,0.6)', fontFamily: 'DM Sans, sans-serif' }}
         >
           Basado en datos de O*NET, Anthropic Economic Index y metodología Eloundou et al. (MIT/OpenAI)
-        </motion.p>
+          {' · '}
+          <Link
+            href="/metodologia"
+            className="underline underline-offset-2 hover:opacity-80 transition-opacity"
+            style={{ color: 'rgba(136,149,176,0.8)' }}
+          >
+            Ver metodología
+          </Link>
+        </motion.div>
       </motion.div>
     </main>
   )

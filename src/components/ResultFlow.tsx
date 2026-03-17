@@ -153,6 +153,7 @@ export function ResultFlow({ slug }: Props) {
               <ActionPlanCTA
                 currentMultiplier={profile.multiplier}
                 potentialMultiplier={potentialMultiplier}
+                slug={profile.slug}
                 animate
                 delay={1.5 + 0.1 * profile.blocks.length + 0.5}
               />
@@ -162,6 +163,7 @@ export function ResultFlow({ slug }: Props) {
                 archetype={profile.archetype}
                 multiplier={profile.multiplier}
                 slug={profile.slug}
+                title={profile.title}
                 animate
                 delay={1.5 + 0.1 * profile.blocks.length + 1.0}
               />

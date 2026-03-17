@@ -1,15 +1,17 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 interface Props {
   currentMultiplier: number
   potentialMultiplier: number
+  slug: string
   animate: boolean
   delay?: number
 }
 
-export function ActionPlanCTA({ currentMultiplier, potentialMultiplier, animate, delay = 3 }: Props) {
+export function ActionPlanCTA({ currentMultiplier, potentialMultiplier, slug, animate, delay = 3 }: Props) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -19,7 +21,7 @@ export function ActionPlanCTA({ currentMultiplier, potentialMultiplier, animate,
         delay,
         ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
       }}
-      className="w-full mt-8 p-6 rounded-3xl text-center cursor-pointer"
+      className="w-full mt-8 p-6 rounded-3xl text-center"
       style={{
         background: 'linear-gradient(135deg, rgba(110,92,255,0.12) 0%, rgba(34,192,136,0.08) 100%)',
         border: '1px solid rgba(110,92,255,0.2)',
@@ -41,18 +43,20 @@ export function ActionPlanCTA({ currentMultiplier, potentialMultiplier, animate,
         Descubre las 3 competencias que más impacto tendrán en tu perfil
         y el itinerario para desarrollarlas.
       </p>
-      <motion.div
-        whileHover={{ scale: 1.02 }}
-        whileTap={{ scale: 0.98 }}
-        className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold"
-        style={{
-          background: 'linear-gradient(135deg, #6E5CFF 0%, #8B7BFF 100%)',
-          color: '#fff',
-          fontFamily: 'Space Grotesk, sans-serif',
-        }}
-      >
-        Ver mi Plan de Acción →
-      </motion.div>
+      <Link href={`/plan/${slug}`}>
+        <motion.span
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold cursor-pointer"
+          style={{
+            background: 'linear-gradient(135deg, #6E5CFF 0%, #8B7BFF 100%)',
+            color: '#fff',
+            fontFamily: 'Space Grotesk, sans-serif',
+          }}
+        >
+          Ver mi Plan de Acción →
+        </motion.span>
+      </Link>
     </motion.div>
   )
 }

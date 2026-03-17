@@ -8,17 +8,18 @@ interface Props {
   archetype: Archetype
   multiplier: number
   slug: string
+  title: string
   animate: boolean
   delay?: number
 }
 
-export function ShareButton({ archetype, multiplier, slug, animate, delay = 3.5 }: Props) {
+export function ShareButton({ archetype, multiplier, slug, title, animate, delay = 3.5 }: Props) {
   const info = ARCHETYPES[archetype]
 
   const shareText = `Mi Perfil IA: ${info.name} · ${multiplier.toFixed(1)}× de potencial de amplificación. Ya sé en qué áreas activar mi potencial. ¿Has analizado el tuyo?`
 
   const shareUrl = typeof window !== 'undefined'
-    ? `${window.location.origin}/resultado/${slug}?ref=share`
+    ? `${window.location.origin}/resultado/${slug}?archetype=${archetype}&multiplier=${multiplier.toFixed(1)}&title=${encodeURIComponent(title)}&ref=share`
     : ''
 
   const handleCopy = async () => {
