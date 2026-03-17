@@ -1,0 +1,602 @@
+[
+  {
+    "id": "course-001",
+    "title": "AI-Powered Product Management: From Strategy to Execution",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["prompt-engineering", "product-management", "prioritization"],
+    "level": "intermediate",
+    "pitch_es": "Los Product Managers que dominan IA generativa priorizan 3x más rápido y toman decisiones basadas en datos reales. Aprende a usar ChatGPT, Copilot y otras herramientas para liderar productos en la era de la IA."
+  },
+  {
+    "id": "course-002",
+    "title": "Product Discovery with AI: Customer Insights at Scale",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["product-discovery", "ai-tools", "user-research"],
+    "level": "advanced",
+    "pitch_es": "Descubre cómo los mejores PMs usan IA para analizar miles de reseñas de usuarios y encontrar oportunidades de producto en minutos, no semanas."
+  },
+  {
+    "id": "course-003",
+    "title": "AI for Operations Management: Automate and Optimize",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["operations-ai", "process-automation", "data-driven-decisions"],
+    "level": "intermediate",
+    "pitch_es": "Los Directores de Operaciones que adoptan IA reducen costos operativos hasta un 30% y liberan a sus equipos para trabajo de mayor valor estratégico."
+  },
+  {
+    "id": "course-004",
+    "title": "Supply Chain Intelligence: Machine Learning for Operations Leaders",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["supply-chain-ai", "predictive-analytics", "operations-management"],
+    "level": "advanced",
+    "pitch_es": "Anticipa disrupciones en la cadena de suministro y optimiza el inventario con modelos de predicción que los líderes de operaciones más avanzados ya están usando."
+  },
+  {
+    "id": "course-005",
+    "title": "AI Strategy for Technology Leaders and CTOs",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["ai-strategy", "technology-leadership", "llm-integration"],
+    "level": "advanced",
+    "pitch_es": "Como CTO, definir la arquitectura de IA de tu empresa es ahora una ventaja competitiva crítica. Aprende a construir roadmaps de IA que generen valor real."
+  },
+  {
+    "id": "course-006",
+    "title": "Building AI-First Engineering Teams: A CTO Playbook",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["team-leadership", "ai-adoption", "engineering-culture"],
+    "level": "advanced",
+    "pitch_es": "Los CTOs que lideran la transformación de IA en sus equipos están redefiniendo cómo se construye software y atrayendo al mejor talento tecnológico del mercado."
+  },
+  {
+    "id": "course-007",
+    "title": "Agile Meets AI: Supercharging Scrum with Generative AI",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["scrum", "agile-ai", "sprint-facilitation"],
+    "level": "intermediate",
+    "pitch_es": "Los Scrum Masters que integran IA en sus ceremonias reducen el tiempo de planificación a la mitad y generan retrospectivas más accionables para sus equipos."
+  },
+  {
+    "id": "course-008",
+    "title": "AI-Enhanced Retrospectives and Sprint Planning",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["agile-ai", "scrum-master", "team-productivity"],
+    "level": "beginner",
+    "pitch_es": "Transforma tus ceremonias Agile usando IA para generar insights de equipos, identificar impedimentos recurrentes y acelerar la mejora continua."
+  },
+  {
+    "id": "course-009",
+    "title": "Project Management in the Age of AI: Tools and Techniques",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["project-management-ai", "ai-tools", "risk-management"],
+    "level": "intermediate",
+    "pitch_es": "Los Project Managers que usan IA para gestión de riesgos y comunicación con stakeholders completan proyectos un 25% más rápido y con menos desviaciones de presupuesto."
+  },
+  {
+    "id": "course-010",
+    "title": "AI-Powered Project Scheduling and Resource Optimization",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["scheduling-ai", "resource-planning", "project-management"],
+    "level": "intermediate",
+    "pitch_es": "Aprende a usar IA para optimizar cronogramas de proyectos complejos, asignar recursos de forma inteligente y anticipar cuellos de botella antes de que ocurran."
+  },
+  {
+    "id": "course-011",
+    "title": "IT Leadership and AI Governance: A Director's Guide",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["ai-governance", "it-leadership", "digital-transformation"],
+    "level": "advanced",
+    "pitch_es": "Los Directores de TI que dominan la gobernanza de IA posicionan a sus empresas para adoptar innovación de forma segura y cumplir con regulaciones emergentes."
+  },
+  {
+    "id": "course-012",
+    "title": "Cloud AI Services for IT Directors: AWS, Azure, and GCP",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["cloud-ai", "it-infrastructure", "ai-architecture"],
+    "level": "intermediate",
+    "pitch_es": "Entiende cómo las principales plataformas cloud están redefiniendo la infraestructura de TI y aprende a tomar decisiones de arquitectura de IA con confianza."
+  },
+  {
+    "id": "course-013",
+    "title": "AI in Financial Analysis: Forecasting and FP&A with Machine Learning",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["financial-ai", "forecasting", "fpa"],
+    "level": "advanced",
+    "pitch_es": "Los CFOs que integran machine learning en sus modelos financieros generan previsiones un 40% más precisas y lideran conversaciones estratégicas con datos superiores."
+  },
+  {
+    "id": "course-014",
+    "title": "CFO Masterclass: Using AI for Strategic Financial Decision-Making",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["strategic-finance", "ai-tools", "executive-decision-making"],
+    "level": "advanced",
+    "pitch_es": "Aprende a usar IA generativa para analizar escenarios financieros complejos, comunicar insights a la junta directiva y liderar la función financiera del futuro."
+  },
+  {
+    "id": "course-015",
+    "title": "AI and the Law: Legal Research Automation for Corporate Attorneys",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["legal-ai", "contract-analysis", "legal-research"],
+    "level": "intermediate",
+    "pitch_es": "Los abogados corporativos que usan IA para investigación legal y revisión de contratos multiplican su capacidad de trabajo sin sacrificar calidad ni precisión."
+  },
+  {
+    "id": "course-016",
+    "title": "Contract Intelligence: AI Tools for Legal Professionals",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["contract-review-ai", "legal-tech", "due-diligence"],
+    "level": "intermediate",
+    "pitch_es": "Domina las herramientas de IA para revisión de contratos y due diligence que están transformando a los abogados más productivos de los despachos líderes."
+  },
+  {
+    "id": "course-017",
+    "title": "AI in Healthcare: Clinical Decision Support for Medical Leaders",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["clinical-ai", "healthcare-data", "medical-decision-support"],
+    "level": "advanced",
+    "pitch_es": "Los Directores Médicos que entienden los sistemas de soporte clínico basados en IA lideran hospitales más seguros, eficientes y preparados para el futuro."
+  },
+  {
+    "id": "course-018",
+    "title": "Digital Health Transformation: AI Strategy for Healthcare Directors",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["digital-health", "ai-strategy", "healthcare-leadership"],
+    "level": "advanced",
+    "pitch_es": "Aprende a evaluar, implementar y gobernar soluciones de IA en entornos clínicos, reduciendo riesgos para el paciente y mejorando la eficiencia operativa del hospital."
+  },
+  {
+    "id": "course-019",
+    "title": "AI-Assisted Auditing: Data Analytics for Senior Auditors",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["audit-analytics", "data-auditing", "risk-assessment-ai"],
+    "level": "intermediate",
+    "pitch_es": "Los Auditores Senior que dominan analítica de datos con IA detectan anomalías y fraudes con una precisión imposible de alcanzar con métodos manuales tradicionales."
+  },
+  {
+    "id": "course-020",
+    "title": "Continuous Auditing and Monitoring with Machine Learning",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["continuous-auditing", "machine-learning", "financial-controls"],
+    "level": "advanced",
+    "pitch_es": "Implementa sistemas de auditoría continua basados en machine learning que detectan riesgos en tiempo real y elevan el estándar de aseguramiento de tu organización."
+  },
+  {
+    "id": "course-021",
+    "title": "AI Governance and Regulatory Compliance: A Framework for Leaders",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["ai-governance", "regulatory-compliance", "risk-management"],
+    "level": "advanced",
+    "pitch_es": "Los Directores de Compliance que entienden la regulación emergente de IA (EU AI Act, NIST) protegen a sus empresas y construyen ventajas competitivas regulatorias."
+  },
+  {
+    "id": "course-022",
+    "title": "Using AI for Compliance Monitoring and Regulatory Reporting",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["compliance-ai", "regulatory-reporting", "policy-monitoring"],
+    "level": "intermediate",
+    "pitch_es": "Automatiza el monitoreo de cumplimiento y la generación de reportes regulatorios con IA, reduciendo el riesgo de incumplimiento y el trabajo manual de tu equipo."
+  },
+  {
+    "id": "course-023",
+    "title": "AI and the Future of Law: Implications for Judicial Decision-Making",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["legal-ai", "judicial-technology", "evidence-analysis"],
+    "level": "advanced",
+    "pitch_es": "Los magistrados que comprenden las capacidades y limitaciones de la IA pueden aplicar la ley con mayor precisión en casos tecnológicos y tomar decisiones mejor fundamentadas."
+  },
+  {
+    "id": "course-024",
+    "title": "Legal Research with AI: Jurisprudence Analysis at Scale",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["legal-research-ai", "case-analysis", "judicial-efficiency"],
+    "level": "intermediate",
+    "pitch_es": "Aprende a usar herramientas de IA para analizar jurisprudencia, identificar precedentes relevantes y fundamentar resoluciones con mayor profundidad y rapidez."
+  },
+  {
+    "id": "course-025",
+    "title": "Python for Data Analysts: From Pandas to Predictive Models",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["python", "data-analysis", "machine-learning"],
+    "level": "intermediate",
+    "pitch_es": "Los Data Analysts que dominan Python y machine learning se convierten en los profesionales más solicitados del mercado, con salarios hasta un 60% superiores."
+  },
+  {
+    "id": "course-026",
+    "title": "AI-Augmented Analytics: Using LLMs for Data Storytelling",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["data-storytelling", "llm-tools", "business-intelligence"],
+    "level": "intermediate",
+    "pitch_es": "Transforma datos complejos en narrativas ejecutivas impactantes usando IA, y conviértete en el analista que los líderes de negocio quieren tener en cada reunión."
+  },
+  {
+    "id": "course-027",
+    "title": "GitHub Copilot Mastery: AI-Powered Development for Full-Stack Engineers",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["github-copilot", "full-stack-development", "ai-coding"],
+    "level": "intermediate",
+    "pitch_es": "Los desarrolladores Full-Stack que dominan GitHub Copilot y otras herramientas de IA escriben código de mayor calidad en la mitad del tiempo, diferenciándose de sus pares."
+  },
+  {
+    "id": "course-028",
+    "title": "Building AI-Powered Web Applications: React, Node, and LLM APIs",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["ai-web-development", "llm-apis", "full-stack-ai"],
+    "level": "advanced",
+    "pitch_es": "Aprende a integrar GPT-4, Claude y otros LLMs en aplicaciones web reales, posicionándote como el desarrollador Full-Stack que las empresas más innovadoras necesitan."
+  },
+  {
+    "id": "course-029",
+    "title": "AI for UX Design: Prototyping and User Research with Generative AI",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["ux-ai", "design-tools", "prototyping"],
+    "level": "beginner",
+    "pitch_es": "Los diseñadores UX que integran IA en su flujo de trabajo generan más variantes, validan hipótesis más rápido y dedican más tiempo a la estrategia que a la ejecución."
+  },
+  {
+    "id": "course-030",
+    "title": "Figma AI and Generative Design: The Future of UX",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["figma-ai", "generative-design", "ux-tools"],
+    "level": "intermediate",
+    "pitch_es": "Domina las funciones de IA de Figma y herramientas como Midjourney para crear experiencias de usuario que antes tomaban semanas, ahora en horas."
+  },
+  {
+    "id": "course-031",
+    "title": "AI Content Creation Masterclass: From Strategy to Publication",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["content-ai", "copywriting", "seo-ai"],
+    "level": "beginner",
+    "pitch_es": "Los Content Creators que usan IA estratégicamente multiplican su producción de contenido de calidad y construyen audiencias más fieles en menos tiempo."
+  },
+  {
+    "id": "course-032",
+    "title": "YouTube and Social Media Growth with AI-Powered Content Strategy",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["social-media-ai", "content-strategy", "audience-growth"],
+    "level": "intermediate",
+    "pitch_es": "Aprende a usar IA para identificar tendencias, generar ideas de contenido virales y optimizar tu estrategia de publicación para multiplicar tu alcance orgánico."
+  },
+  {
+    "id": "course-033",
+    "title": "Data Engineering with AI: Building Modern Pipelines and Lakehouses",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["data-engineering", "ai-pipelines", "data-lakehouse"],
+    "level": "advanced",
+    "pitch_es": "Los Data Engineers que construyen pipelines optimizados para modelos de IA son el cuello de botella que toda empresa tecnológica quiere eliminar contratándolos."
+  },
+  {
+    "id": "course-034",
+    "title": "MLOps and AI Infrastructure: From Notebooks to Production",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["mlops", "ai-infrastructure", "data-engineering"],
+    "level": "advanced",
+    "pitch_es": "Aprende a desplegar y mantener modelos de IA en producción, la habilidad más escasa y mejor pagada en el ecosistema de datos actual."
+  },
+  {
+    "id": "course-035",
+    "title": "AI-Powered Market Research: Consumer Insights at Scale",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["market-research-ai", "consumer-insights", "survey-analysis"],
+    "level": "intermediate",
+    "pitch_es": "Los Investigadores de Mercado que usan IA analizan tendencias de consumidor con una velocidad y profundidad que antes era exclusiva de las grandes consultoras globales."
+  },
+  {
+    "id": "course-036",
+    "title": "Competitive Intelligence with AI: Tools and Frameworks for Market Analysts",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["competitive-intelligence", "ai-research-tools", "market-analysis"],
+    "level": "intermediate",
+    "pitch_es": "Domina las herramientas de IA para monitorizar competidores, analizar tendencias de mercado y entregar insights estratégicos que influyen en las decisiones del C-suite."
+  },
+  {
+    "id": "course-037",
+    "title": "AI for B2B Sales: Prospecting, Personalization, and Pipeline Growth",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["sales-ai", "b2b-prospecting", "crm-automation"],
+    "level": "intermediate",
+    "pitch_es": "Los comerciales B2B que dominan IA para prospección y personalización cierran un 35% más de deals y construyen pipelines más predecibles y robustos."
+  },
+  {
+    "id": "course-038",
+    "title": "Sales Enablement with AI: From Lead Generation to Closing",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["sales-enablement", "ai-tools", "negotiation-support"],
+    "level": "beginner",
+    "pitch_es": "Aprende a usar herramientas de IA como Outreach, Gong y ChatGPT para preparar reuniones, personalizar propuestas y acelerar el ciclo de ventas B2B."
+  },
+  {
+    "id": "course-039",
+    "title": "AI in HR: People Analytics and Strategic Workforce Planning",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["people-analytics", "hr-ai", "workforce-planning"],
+    "level": "intermediate",
+    "pitch_es": "Los HRBPs que dominan people analytics con IA se convierten en socios estratégicos del negocio, prediciendo rotación y diseñando intervenciones de talento con impacto medible."
+  },
+  {
+    "id": "course-040",
+    "title": "AI-Powered Recruitment and Talent Management for HR Professionals",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["recruitment-ai", "talent-management", "hr-technology"],
+    "level": "beginner",
+    "pitch_es": "Transforma tu proceso de reclutamiento con IA para identificar a los mejores candidatos más rápido, reducir sesgos y construir equipos más diversos y efectivos."
+  },
+  {
+    "id": "course-041",
+    "title": "AI Tools for Account Managers: Retention, Growth, and Client Intelligence",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["account-management-ai", "client-intelligence", "crm-ai"],
+    "level": "intermediate",
+    "pitch_es": "Los Account Managers que usan IA para anticipar las necesidades de sus cuentas reducen el churn, identifican oportunidades de upsell y entregan un servicio que fideliza."
+  },
+  {
+    "id": "course-042",
+    "title": "Customer Success with AI: Predictive Churn and Revenue Expansion",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["customer-success-ai", "churn-prediction", "revenue-expansion"],
+    "level": "intermediate",
+    "pitch_es": "Aprende a construir modelos predictivos de churn y estrategias de expansión basadas en datos para convertirte en el Account Manager que toda empresa SaaS quiere."
+  },
+  {
+    "id": "course-043",
+    "title": "AI for Journalists: Research, Fact-Checking, and Story Discovery",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["journalism-ai", "fact-checking", "investigative-research"],
+    "level": "beginner",
+    "pitch_es": "Los periodistas que usan IA para investigación y verificación de hechos producen reportajes más profundos y bien fundamentados en una fracción del tiempo habitual."
+  },
+  {
+    "id": "course-044",
+    "title": "Data Journalism: Using AI and Analytics to Tell Compelling Stories",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["data-journalism", "ai-storytelling", "visualization"],
+    "level": "intermediate",
+    "pitch_es": "El periodismo de datos con IA es la nueva frontera del reportaje impactante. Aprende a encontrar historias en grandes datasets y comunicarlas de forma visual y memorable."
+  },
+  {
+    "id": "course-045",
+    "title": "AI in Real Estate: Market Analysis, Valuation, and Lead Generation",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["real-estate-ai", "property-valuation", "lead-generation-ai"],
+    "level": "beginner",
+    "pitch_es": "Los consultores inmobiliarios que integran IA en su práctica encuentran mejores propiedades para sus clientes más rápido y generan listados que destacan en mercados competitivos."
+  },
+  {
+    "id": "course-046",
+    "title": "PropTech and AI: Tools for the Modern Real Estate Professional",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["proptech", "real-estate-analytics", "ai-tools"],
+    "level": "intermediate",
+    "pitch_es": "Domina las plataformas PropTech más avanzadas y aprende a usar IA para analizar mercados, predecir precios y dar a tus clientes la ventaja competitiva que buscan."
+  },
+  {
+    "id": "course-047",
+    "title": "AI Applications in Organizational Psychology and Behavioral Assessment",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["organizational-psychology-ai", "behavioral-analytics", "assessment-tools"],
+    "level": "advanced",
+    "pitch_es": "Los psicólogos organizacionales que combinan ciencia del comportamiento con IA diseñan intervenciones más efectivas y miden el impacto de sus programas con precisión."
+  },
+  {
+    "id": "course-048",
+    "title": "Well-Being Analytics: AI for Employee Mental Health and Engagement",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["well-being-ai", "employee-engagement", "organizational-health"],
+    "level": "intermediate",
+    "pitch_es": "Aprende a usar plataformas de analítica de bienestar para identificar equipos en riesgo, diseñar programas de salud mental y demostrar el ROI de las intervenciones psicológicas."
+  },
+  {
+    "id": "course-049",
+    "title": "AI-Powered Customer Service: From Chatbots to Intelligent Support Desks",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["customer-service-ai", "chatbot-management", "support-automation"],
+    "level": "intermediate",
+    "pitch_es": "Los Customer Service Managers que implementan IA de forma estratégica mejoran el CSAT, reducen el tiempo de resolución y posicionan a su equipo para un trabajo más complejo y satisfactorio."
+  },
+  {
+    "id": "course-050",
+    "title": "Leading AI Transformation in Customer Experience Teams",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["cx-ai-leadership", "team-transformation", "customer-experience"],
+    "level": "advanced",
+    "pitch_es": "Aprende a liderar el cambio hacia un modelo de servicio aumentado por IA, gestionando la transición humano-máquina con empatía y logrando resultados medibles para el negocio."
+  },
+  {
+    "id": "course-051",
+    "title": "AI for Paralegals: Legal Research, Document Review, and Drafting",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["paralegal-ai", "legal-document-review", "legal-drafting"],
+    "level": "beginner",
+    "pitch_es": "Los paralegales que dominan herramientas de IA como Harvey y Casetext se convierten en los profesionales más valiosos de cualquier firma de abogados moderna."
+  },
+  {
+    "id": "course-052",
+    "title": "Legal Tech Essentials for Paralegals: Automation and Efficiency",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["legal-tech", "document-automation", "paralegal-skills"],
+    "level": "beginner",
+    "pitch_es": "Transforma tu productividad como paralegal aprendiendo a automatizar la revisión de documentos, la investigación jurídica y la gestión de expedientes con IA."
+  },
+  {
+    "id": "course-053",
+    "title": "AI Translation Tools: Mastering CAT Tools and Neural Machine Translation",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["translation-ai", "cat-tools", "post-editing"],
+    "level": "intermediate",
+    "pitch_es": "Los traductores que dominan la post-edición de traducción automática neuronal y las herramientas CAT con IA duplican su productividad sin sacrificar su calidad profesional."
+  },
+  {
+    "id": "course-054",
+    "title": "The AI-Augmented Translator: Specialization and Competitive Positioning",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["translation-specialization", "ai-post-editing", "localization"],
+    "level": "intermediate",
+    "pitch_es": "Aprende a especializarte en nichos de alto valor como la localización tecnológica o la traducción médica, usando IA para competir con tarifas premium en el mercado global."
+  },
+  {
+    "id": "course-055",
+    "title": "Automating Data Entry and Administrative Tasks with AI and RPA",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["rpa", "data-automation", "process-improvement"],
+    "level": "beginner",
+    "pitch_es": "Aprende a automatizar las tareas repetitivas de entrada de datos con herramientas de RPA e IA, liberándote para contribuir con un trabajo de mayor impacto y valor."
+  },
+  {
+    "id": "course-056",
+    "title": "Excel, Power BI, and AI: The Modern Data Entry Professional",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["excel-ai", "power-bi", "data-validation"],
+    "level": "beginner",
+    "pitch_es": "Transforma tu rol dominando Excel avanzado, Power BI y las funciones de IA que convierten a los profesionales de datos operativos en analistas de negocio indispensables."
+  },
+  {
+    "id": "course-057",
+    "title": "AI-Powered Social Media Management: Content, Scheduling, and Analytics",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["social-media-ai", "community-management", "content-scheduling"],
+    "level": "beginner",
+    "pitch_es": "Los Community Managers que usan IA para crear contenido, moderar comunidades y analizar el rendimiento construyen comunidades más activas y reportan resultados más impactantes."
+  },
+  {
+    "id": "course-058",
+    "title": "Community Building in the AI Era: Engagement and Growth Strategies",
+    "platform": "coursera",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["community-growth-ai", "engagement-strategy", "social-analytics"],
+    "level": "intermediate",
+    "pitch_es": "Aprende estrategias avanzadas para hacer crecer comunidades digitales usando IA para personalizar el contenido, identificar a los miembros más influyentes y medir el impacto."
+  },
+  {
+    "id": "course-059",
+    "title": "AI Tools for Administrative Professionals: Productivity and Automation",
+    "platform": "linkedin_learning",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["admin-ai-tools", "productivity-automation", "executive-support"],
+    "level": "beginner",
+    "pitch_es": "Los asistentes administrativos que dominan herramientas de IA como Copilot para Microsoft 365 se convierten en multiplicadores de productividad para los ejecutivos a los que apoyan."
+  },
+  {
+    "id": "course-060",
+    "title": "Executive Assistant in the AI Age: Advanced Organization and Communication",
+    "platform": "udemy",
+    "url": "#",
+    "affiliate_url": "#",
+    "skills": ["executive-support-ai", "communication-ai", "scheduling-automation"],
+    "level": "beginner",
+    "pitch_es": "Eleva tu rol de asistente administrativo aprendiendo a gestionar agendas complejas, redactar comunicaciones ejecutivas y coordinar proyectos usando IA como tu superpoder profesional."
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --src-dir --import-alias \"@/*\" --no-eslint --no-turbopack --yes)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --src-dir --import-alias \"@/*\" --no-eslint --no-turbopack --yes --force)",
+      "Bash(npx create-next-app@latest ./nextapp --typescript --tailwind --app --src-dir --import-alias \"@/*\" --no-eslint --no-turbopack --yes)",
+      "Bash(npm install:*)"
+    ]
+  }
+}

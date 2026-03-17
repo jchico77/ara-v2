@@ -1,0 +1,722 @@
+[
+  {
+    "id": "res-001",
+    "title": "How AI is Changing Product Management",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=0Yf1HCPiMpk",
+    "skill_area": "product-management-ai",
+    "description_es": "Exploración práctica de cómo los PMs más avanzados están usando IA para priorizar backlogs, sintetizar feedback de usuarios y acelerar el discovery de producto."
+  },
+  {
+    "id": "res-002",
+    "title": "The AI Product Manager: How to Stay Relevant in the Age of Generative AI",
+    "type": "article",
+    "url": "https://www.lennysnewsletter.com/p/the-ai-product-manager",
+    "skill_area": "product-management-ai",
+    "description_es": "Análisis profundo de Lenny Rachitsky sobre qué habilidades diferencian a los PMs que prosperan con IA de los que serán reemplazados por ella."
+  },
+  {
+    "id": "res-003",
+    "title": "AI is Changing Product Management Forever | Mind the Product",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=RXFwQQp9gNk",
+    "skill_area": "product-management-ai",
+    "description_es": "Charla de la conferencia Mind the Product sobre cómo rediseñar el proceso de product management para una era donde la IA es un colaborador, no solo una herramienta."
+  },
+  {
+    "id": "res-004",
+    "title": "How AI is Transforming Business Operations",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=2ePf9rue1Ao",
+    "skill_area": "operations-ai",
+    "description_es": "Análisis visual de cómo las operaciones empresariales se están rediseñando con IA, desde la cadena de suministro hasta la atención al cliente."
+  },
+  {
+    "id": "res-005",
+    "title": "AI in Operations: McKinsey on Automation and Efficiency",
+    "type": "article",
+    "url": "https://www.mckinsey.com/capabilities/operations/our-insights/the-next-frontier-of-customer-engagement-ai-enabled-customer-service",
+    "skill_area": "operations-ai",
+    "description_es": "Informe de McKinsey sobre cómo la IA está redefiniendo las operaciones empresariales y qué líderes están capturando el mayor valor de la automatización."
+  },
+  {
+    "id": "res-006",
+    "title": "Operations in the Age of Generative AI | Harvard Business Review",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "operations-ai",
+    "description_es": "Panel de Harvard Business Review donde directores de operaciones de empresas Fortune 500 discuten estrategias concretas para integrar IA en sus funciones."
+  },
+  {
+    "id": "res-007",
+    "title": "The CTO's Guide to Generative AI | A16Z",
+    "type": "article",
+    "url": "https://a16z.com/how-are-consumers-using-generative-ai/",
+    "skill_area": "cto-ai-strategy",
+    "description_es": "Guía de Andreessen Horowitz para líderes tecnológicos sobre cómo evaluar, adoptar y gobernar IA generativa dentro de sus organizaciones de ingeniería."
+  },
+  {
+    "id": "res-008",
+    "title": "AI Strategy for Technology Leaders | Stanford HAI",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=9vM4p9NN0Ts",
+    "skill_area": "cto-ai-strategy",
+    "description_es": "Conferencia del Stanford Human-Centered AI Institute donde líderes técnicos debaten cómo construir organizaciones de ingeniería preparadas para la era de la IA."
+  },
+  {
+    "id": "res-009",
+    "title": "How CTOs Are Thinking About AI in 2025 | Sequoia Capital",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "cto-ai-strategy",
+    "description_es": "Ronda de discusión con CTOs de las startups más crecientes del portafolio de Sequoia sobre qué decisiones de arquitectura de IA están definiendo quién gana y quién pierde."
+  },
+  {
+    "id": "res-010",
+    "title": "Using AI in Agile: What Every Scrum Master Should Know",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "agile-ai",
+    "description_es": "Tutorial práctico para Scrum Masters sobre cómo usar ChatGPT y otras herramientas de IA para facilitar retrospectivas, planificaciones y daily standups más efectivos."
+  },
+  {
+    "id": "res-011",
+    "title": "AI and the Future of Agile | Scrum Alliance",
+    "type": "article",
+    "url": "https://resources.scrumalliance.org/Article/will-artificial-intelligence-make-scrum-obsolete",
+    "skill_area": "agile-ai",
+    "description_es": "Análisis de Scrum Alliance sobre si la IA hará obsoletas algunas ceremonias ágiles y cómo los Scrum Masters deben evolucionar su rol."
+  },
+  {
+    "id": "res-012",
+    "title": "Agile in the Age of AI | Global Scrum Gathering",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "agile-ai",
+    "description_es": "Keynote del Global Scrum Gathering donde practitioners avanzados demuestran cómo los marcos ágiles y la IA se complementan para crear equipos de alto rendimiento."
+  },
+  {
+    "id": "res-013",
+    "title": "How AI is Changing Project Management | PMI",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "project-management-ai",
+    "description_es": "El Project Management Institute explora cómo la IA está transformando la gestión de proyectos y qué certificaciones y habilidades son más relevantes para los PMs del futuro."
+  },
+  {
+    "id": "res-014",
+    "title": "AI in Project Management: Benefits, Risks, and Best Practices",
+    "type": "article",
+    "url": "https://www.pmi.org/learning/library/artificial-intelligence-future-project-management-11274",
+    "skill_area": "project-management-ai",
+    "description_es": "Investigación del PMI sobre los beneficios tangibles, los riesgos y las mejores prácticas para integrar IA en la gestión de proyectos corporativos."
+  },
+  {
+    "id": "res-015",
+    "title": "The AI Project Manager: A New Role for a New Era | APM",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "project-management-ai",
+    "description_es": "La Association for Project Management presenta su visión sobre cómo evolucionará el rol del Project Manager en los próximos cinco años con la proliferación de la IA."
+  },
+  {
+    "id": "res-016",
+    "title": "AI Governance for IT Leaders | Gartner",
+    "type": "article",
+    "url": "https://www.gartner.com/en/information-technology/insights/artificial-intelligence",
+    "skill_area": "it-ai-governance",
+    "description_es": "Gartner establece el marco de referencia que los líderes de TI necesitan para gobernar la adopción de IA de forma segura, escalable y alineada con el negocio."
+  },
+  {
+    "id": "res-017",
+    "title": "How IT Directors Are Navigating the AI Transformation",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "it-ai-governance",
+    "description_es": "Panel con directores de TI de empresas líderes que comparten sus estrategias reales para introducir IA en infraestructuras existentes sin interrumpir las operaciones."
+  },
+  {
+    "id": "res-018",
+    "title": "Digital Transformation with AI | MIT Sloan Management Review",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "it-ai-governance",
+    "description_es": "Investigadores del MIT comparten evidencia sobre qué factores determinan el éxito o fracaso de las iniciativas de transformación digital lideradas por TI."
+  },
+  {
+    "id": "res-019",
+    "title": "AI in Finance: How CFOs Are Using Machine Learning | Wall Street Journal",
+    "type": "article",
+    "url": "https://www.wsj.com/articles/how-artificial-intelligence-is-changing-finance-1511442001",
+    "skill_area": "finance-ai",
+    "description_es": "El Wall Street Journal examina cómo los CFOs de las empresas más avanzadas están integrando machine learning en sus funciones de FP&A, tesorería y control de riesgos."
+  },
+  {
+    "id": "res-020",
+    "title": "CFO 3.0: Digital Transformation and the Finance Function | Deloitte",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "finance-ai",
+    "description_es": "Deloitte presenta su investigación sobre cómo los CFOs más efectivos están liderando la transformación digital de la función financiera usando IA y analítica avanzada."
+  },
+  {
+    "id": "res-021",
+    "title": "The Future of Finance: AI and the CFO | Davos 2024",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "finance-ai",
+    "description_es": "Panel del Foro Económico Mundial donde CFOs de compañías globales debaten el impacto de la IA en la función financiera y cómo están reposicionando a sus equipos."
+  },
+  {
+    "id": "res-022",
+    "title": "How AI is Changing Legal Practice | Harvard Law School",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "legal-ai",
+    "description_es": "Profesores de Harvard Law School analizan cómo las herramientas de IA están transformando la práctica legal y qué habilidades diferenciarán a los abogados del futuro."
+  },
+  {
+    "id": "res-023",
+    "title": "AI in Law: Beyond the Hype | Thomson Reuters Institute",
+    "type": "article",
+    "url": "https://www.thomsonreuters.com/en-us/posts/legal/future-of-professionals-report/",
+    "skill_area": "legal-ai",
+    "description_es": "Informe riguroso de Thomson Reuters sobre el estado real de la adopción de IA en despachos de abogados y qué áreas del derecho están siendo más transformadas."
+  },
+  {
+    "id": "res-024",
+    "title": "The AI Lawyer | TED Talk by Margaret Hagan",
+    "type": "talk",
+    "url": "https://www.ted.com/talks/margaret_hagan_law_for_the_layperson",
+    "skill_area": "legal-ai",
+    "description_es": "Charla TED sobre cómo la tecnología legal y la IA están democratizando el acceso a la justicia y transformando la forma en que los abogados prestan sus servicios."
+  },
+  {
+    "id": "res-025",
+    "title": "AI in Healthcare: Separating Hype from Reality | NEJM",
+    "type": "article",
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJMra2204673",
+    "skill_area": "healthcare-ai",
+    "description_es": "El New England Journal of Medicine publica una revisión crítica de las aplicaciones de IA en medicina, identificando qué promesas son reales y cuáles aún están por cumplirse."
+  },
+  {
+    "id": "res-026",
+    "title": "How AI is Transforming Hospital Management | TED",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "healthcare-ai",
+    "description_es": "Directores médicos de hospitales líderes comparten sus experiencias implementando IA para reducir tiempos de espera, optimizar quirófanos y mejorar resultados clínicos."
+  },
+  {
+    "id": "res-027",
+    "title": "AI for Health | World Health Organization Summit",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "healthcare-ai",
+    "description_es": "La OMS presenta su marco para la adopción ética de IA en sistemas de salud, esencial para directores médicos que quieren implementar tecnología con responsabilidad."
+  },
+  {
+    "id": "res-028",
+    "title": "AI in Auditing: The Future of Risk and Assurance | KPMG",
+    "type": "article",
+    "url": "https://kpmg.com/us/en/articles/2023/audit-quality-2023.html",
+    "skill_area": "audit-ai",
+    "description_es": "KPMG explica cómo las Big Four están transformando sus prácticas de auditoría con IA y qué habilidades necesitarán los auditores para seguir siendo relevantes."
+  },
+  {
+    "id": "res-029",
+    "title": "Data Analytics in Auditing | ICAEW",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "audit-ai",
+    "description_es": "El Instituto de Contadores de Inglaterra y Gales presenta casos prácticos de cómo la analítica de datos está mejorando la calidad y la eficiencia de las auditorías financieras."
+  },
+  {
+    "id": "res-030",
+    "title": "The Future of Audit: AI, Automation, and Human Judgment | Deloitte",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "audit-ai",
+    "description_es": "Panel de expertos de Deloitte sobre cómo la IA está cambiando la naturaleza del trabajo de auditoría y qué rol jugará el juicio humano en el proceso del futuro."
+  },
+  {
+    "id": "res-031",
+    "title": "AI Regulation: What Compliance Officers Need to Know | EU AI Act",
+    "type": "article",
+    "url": "https://artificialintelligenceact.eu/",
+    "skill_area": "compliance-ai",
+    "description_es": "Guía completa sobre el Reglamento de Inteligencia Artificial de la UE, la regulación más importante del mundo para los directores de compliance que operan en Europa."
+  },
+  {
+    "id": "res-032",
+    "title": "Building an AI Governance Framework | NIST",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "compliance-ai",
+    "description_es": "El NIST explica su Marco de Gestión de Riesgos de IA y cómo los directores de compliance pueden implementarlo para gestionar los riesgos de la IA de forma sistemática."
+  },
+  {
+    "id": "res-033",
+    "title": "AI Risk and Compliance: A Practical Guide | Thomson Reuters",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "compliance-ai",
+    "description_es": "Webinar de Thomson Reuters donde expertos en compliance comparten estrategias prácticas para monitorizar el cumplimiento normativo usando herramientas de IA."
+  },
+  {
+    "id": "res-034",
+    "title": "Artificial Intelligence and the Judiciary | UNODC",
+    "type": "article",
+    "url": "https://www.unodc.org/unodc/en/organized-crime/artificial-intelligence.html",
+    "skill_area": "judicial-ai",
+    "description_es": "La UNODC analiza cómo la inteligencia artificial está siendo utilizada en sistemas judiciales de todo el mundo y los desafíos éticos que esto plantea para los jueces."
+  },
+  {
+    "id": "res-035",
+    "title": "AI in the Courtroom: Opportunities and Risks | Yale Law School",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "judicial-ai",
+    "description_es": "Simposio de Yale Law School donde juristas y tecnólogos debaten los límites éticos del uso de algoritmos de IA en decisiones judiciales."
+  },
+  {
+    "id": "res-036",
+    "title": "Algorithm and Blues: AI Bias in Criminal Justice | TED",
+    "type": "talk",
+    "url": "https://www.ted.com/talks/cathy_o_neil_the_era_of_blind_faith_in_big_data_must_end",
+    "skill_area": "judicial-ai",
+    "description_es": "Charla TED de Cathy O'Neil sobre los peligros de los algoritmos en el sistema judicial y por qué los jueces deben entender sus limitaciones antes de usarlos."
+  },
+  {
+    "id": "res-037",
+    "title": "Python for Data Analysis - Full Course | freeCodeCamp",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=r-uOLxNrNk8",
+    "skill_area": "data-analysis-ai",
+    "description_es": "Curso gratuito completo de análisis de datos con Python que cubre Pandas, NumPy y visualización, la base técnica que todo analista de datos necesita dominar."
+  },
+  {
+    "id": "res-038",
+    "title": "ChatGPT for Data Analysts: Practical Use Cases | Towards Data Science",
+    "type": "article",
+    "url": "https://towardsdatascience.com/chatgpt-for-data-scientists-useful-prompts-for-data-analysis-f2e28f24f6d4",
+    "skill_area": "data-analysis-ai",
+    "description_es": "Guía práctica con casos de uso reales de cómo los data analysts están usando ChatGPT para acelerar el análisis de datos, la generación de código y la comunicación de insights."
+  },
+  {
+    "id": "res-039",
+    "title": "The Future of Data Analysis: AI and Human Collaboration | Databricks Summit",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "data-analysis-ai",
+    "description_es": "Keynote del Data + AI Summit de Databricks sobre cómo la próxima generación de analistas de datos usará IA para procesar información a una escala sin precedentes."
+  },
+  {
+    "id": "res-040",
+    "title": "GitHub Copilot for Beginners | Microsoft Developer",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=jXp5D5ZnxGM",
+    "skill_area": "ai-coding",
+    "description_es": "Tutorial oficial de Microsoft para desarrolladores que quieren empezar a usar GitHub Copilot para escribir código más rápido y con menos errores."
+  },
+  {
+    "id": "res-041",
+    "title": "The End of Programming as We Know It | O'Reilly",
+    "type": "article",
+    "url": "https://www.oreilly.com/radar/the-end-of-programming/",
+    "skill_area": "ai-coding",
+    "description_es": "Artículo provocador de O'Reilly sobre cómo la IA está redefiniendo qué significa ser desarrollador de software y qué habilidades serán más valiosas en el futuro."
+  },
+  {
+    "id": "res-042",
+    "title": "Building Real Apps with AI Coding Tools | ThePrimeagen",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "ai-coding",
+    "description_es": "Demostración en vivo de cómo los mejores ingenieros usan herramientas de IA para construir aplicaciones reales, mostrando tanto los aciertos como los límites de estas herramientas."
+  },
+  {
+    "id": "res-043",
+    "title": "AI Tools for UX Designers in 2024 | AJ&Smart",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=mRhgnBexRbU",
+    "skill_area": "ux-ai",
+    "description_es": "Revisión práctica de las mejores herramientas de IA para diseñadores UX, desde generación de imágenes hasta prototipos automáticos, con demostraciones reales."
+  },
+  {
+    "id": "res-044",
+    "title": "How AI is Transforming UX Design | Nielsen Norman Group",
+    "type": "article",
+    "url": "https://www.nngroup.com/articles/ai-ux-getting-started/",
+    "skill_area": "ux-ai",
+    "description_es": "El Nielsen Norman Group analiza cómo la IA está cambiando el proceso de diseño UX y qué investigaciones muestran sobre su impacto en la calidad de los productos digitales."
+  },
+  {
+    "id": "res-045",
+    "title": "Designing AI-Powered Experiences | Google Design",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "ux-ai",
+    "description_es": "Diseñadores de Google comparten los principios y métodos que usan para diseñar experiencias de usuario para productos impulsados por inteligencia artificial."
+  },
+  {
+    "id": "res-046",
+    "title": "How to Use AI for Content Creation Without Losing Your Voice",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=9Nfzm2O2S8M",
+    "skill_area": "content-creation-ai",
+    "description_es": "Tutorial práctico para creadores de contenido sobre cómo usar IA para generar ideas, borradores y variaciones sin perder la autenticidad y el estilo propio."
+  },
+  {
+    "id": "res-047",
+    "title": "The Creator Economy and Generative AI | a16z",
+    "type": "article",
+    "url": "https://a16z.com/ai-creator-economy/",
+    "skill_area": "content-creation-ai",
+    "description_es": "Andreessen Horowitz analiza cómo la IA generativa está transformando la economía creadora y qué oportunidades y amenazas presenta para los content creators profesionales."
+  },
+  {
+    "id": "res-048",
+    "title": "AI and the Future of Creativity | World Economic Forum",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "content-creation-ai",
+    "description_es": "Panel del Foro Económico Mundial donde creadores, tecnólogos y ejecutivos debaten si la IA generativa es aliada o amenaza para los profesionales creativos."
+  },
+  {
+    "id": "res-049",
+    "title": "Data Engineering Full Course | freeCodeCamp",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=PHsC_t0j1dU",
+    "skill_area": "data-engineering-ai",
+    "description_es": "Curso completo y gratuito de ingeniería de datos que cubre pipelines, bases de datos y procesamiento en la nube, la base para construir infraestructura de IA."
+  },
+  {
+    "id": "res-050",
+    "title": "Building AI-Ready Data Infrastructure | Databricks Blog",
+    "type": "article",
+    "url": "https://www.databricks.com/blog/building-generative-ai-applications-lakehouse",
+    "skill_area": "data-engineering-ai",
+    "description_es": "Guía técnica de Databricks sobre cómo arquitectar infraestructuras de datos preparadas para soportar aplicaciones de IA generativa a escala empresarial."
+  },
+  {
+    "id": "res-051",
+    "title": "The Modern Data Stack and AI | Tristan Handy | dbt Labs",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "data-engineering-ai",
+    "description_es": "El CEO de dbt Labs explica cómo el stack de datos moderno está evolucionando para incorporar IA y qué habilidades necesitarán los data engineers del futuro."
+  },
+  {
+    "id": "res-052",
+    "title": "AI for Market Research: Tools and Techniques | GreenBook",
+    "type": "article",
+    "url": "https://www.greenbook.org/mr/artificial-intelligence/",
+    "skill_area": "market-research-ai",
+    "description_es": "GreenBook, la referencia de la industria de investigación de mercado, analiza cómo la IA está transformando la metodología y las herramientas de los investigadores."
+  },
+  {
+    "id": "res-053",
+    "title": "Using AI for Consumer Insights | ESOMAR Congress",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "market-research-ai",
+    "description_es": "Presentación del congreso ESOMAR donde investigadores de mercado líderes demuestran cómo la IA está acelerando y profundizando el análisis de consumidores."
+  },
+  {
+    "id": "res-054",
+    "title": "The Future of Market Research | Forrester",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "market-research-ai",
+    "description_es": "Analistas de Forrester presentan su investigación sobre cómo la IA está redefiniendo el mercado de la investigación de mercado y qué firmas están ganando la carrera."
+  },
+  {
+    "id": "res-055",
+    "title": "AI Tools for B2B Sales in 2024 | Sales Hacker",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "b2b-sales-ai",
+    "description_es": "Los mejores vendedores B2B del mundo comparten las herramientas de IA que usan en su día a día para prospectar, personalizar y cerrar más deals."
+  },
+  {
+    "id": "res-056",
+    "title": "How AI is Transforming B2B Sales | HBR",
+    "type": "article",
+    "url": "https://hbr.org/2023/03/how-generative-ai-could-disrupt-creative-work",
+    "skill_area": "b2b-sales-ai",
+    "description_es": "Harvard Business Review analiza cómo la IA está cambiando el ciclo de ventas B2B, desde la identificación de leads hasta la negociación y el cierre de contratos."
+  },
+  {
+    "id": "res-057",
+    "title": "The AI-Powered Sales Rep | Gong Labs",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "b2b-sales-ai",
+    "description_es": "Investigadores de Gong presentan datos reales sobre qué comportamientos de ventas aumentados por IA generan más ingresos y cómo replicarlos en cualquier equipo comercial."
+  },
+  {
+    "id": "res-058",
+    "title": "AI in HR: People Analytics for Business Partners | SHRM",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "hr-ai",
+    "description_es": "La Society for Human Resource Management explica cómo los HRBPs pueden usar people analytics impulsados por IA para convertirse en socios estratégicos del negocio."
+  },
+  {
+    "id": "res-059",
+    "title": "People Analytics: How HR Leaders Are Using AI | Deloitte Insights",
+    "type": "article",
+    "url": "https://www2.deloitte.com/us/en/insights/focus/human-capital-trends/2023/ai-in-hr.html",
+    "skill_area": "hr-ai",
+    "description_es": "Informe de Deloitte sobre cómo los líderes de RRHH más avanzados están usando IA para transformar el reclutamiento, la retención y el desarrollo del talento."
+  },
+  {
+    "id": "res-060",
+    "title": "The Future of HR: AI and the Human Touch | Josh Bersin",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "hr-ai",
+    "description_es": "Josh Bersin, el analista de RRHH más influyente del mundo, presenta su visión sobre cómo la IA está transformando los recursos humanos y qué significa para los HRBPs."
+  },
+  {
+    "id": "res-061",
+    "title": "AI Tools for Account Managers | Salesforce Blog",
+    "type": "article",
+    "url": "https://www.salesforce.com/blog/ai-for-account-managers/",
+    "skill_area": "account-management-ai",
+    "description_es": "Salesforce comparte las herramientas de IA más efectivas para account managers, con casos de uso reales de cómo están reduciendo el churn y aumentando la expansión de cuentas."
+  },
+  {
+    "id": "res-062",
+    "title": "How to Use AI for Customer Retention | Gainsight",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "account-management-ai",
+    "description_es": "El equipo de Gainsight demuestra cómo los account managers pueden usar IA para predecir el riesgo de churn y diseñar intervenciones personalizadas antes de que sea demasiado tarde."
+  },
+  {
+    "id": "res-063",
+    "title": "AI in Customer Success: The State of the Industry | ChurnZero",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "account-management-ai",
+    "description_es": "Informe anual de ChurnZero sobre el estado de la IA en customer success, con datos de cientos de equipos sobre qué herramientas están generando el mayor ROI."
+  },
+  {
+    "id": "res-064",
+    "title": "AI for Journalists: A Practical Guide | Reuters Institute",
+    "type": "article",
+    "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2024",
+    "skill_area": "journalism-ai",
+    "description_es": "El Reuters Institute for the Study of Journalism publica su guía práctica para periodistas que quieren integrar IA en su flujo de trabajo de forma ética y efectiva."
+  },
+  {
+    "id": "res-065",
+    "title": "How the Associated Press Uses AI for Journalism | NiemanLab",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "journalism-ai",
+    "description_es": "La Associated Press comparte su experiencia pionera usando IA para automatizar la cobertura de noticias y cómo esto ha liberado a sus periodistas para el trabajo de mayor valor."
+  },
+  {
+    "id": "res-066",
+    "title": "Journalism and AI: The Trust Problem | Columbia Journalism Review",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "journalism-ai",
+    "description_es": "Debate en la Columbia Journalism School sobre los dilemas éticos del uso de IA en el periodismo y cómo los medios pueden mantener la confianza del público."
+  },
+  {
+    "id": "res-067",
+    "title": "How AI is Changing Real Estate | BiggerPockets",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "real-estate-ai",
+    "description_es": "BiggerPockets explora cómo los agentes y consultores inmobiliarios más exitosos están usando IA para encontrar mejores propiedades, valorarlas con más precisión y cerrar más operaciones."
+  },
+  {
+    "id": "res-068",
+    "title": "PropTech AI: Tools for Real Estate Professionals | Inman",
+    "type": "article",
+    "url": "https://www.inman.com/category/technology/",
+    "skill_area": "real-estate-ai",
+    "description_es": "Inman, la publicación de referencia del sector inmobiliario, analiza las herramientas de IA que están transformando cómo los profesionales del sector trabajan y compiten."
+  },
+  {
+    "id": "res-069",
+    "title": "The Future of Real Estate: AI and Automation | NAR Annual Conference",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "real-estate-ai",
+    "description_es": "La National Association of Realtors presenta su investigación sobre el impacto de la IA en el sector inmobiliario y cómo los agentes pueden adaptarse para prosperar."
+  },
+  {
+    "id": "res-070",
+    "title": "AI in Organizational Psychology | Society for Industrial-Organizational Psychology",
+    "type": "article",
+    "url": "https://www.siop.org/Research-Publications/Items-of-Interest/ArtMID/19366/ArticleID/6478/AI-and-IO-Psychology",
+    "skill_area": "org-psychology-ai",
+    "description_es": "La Sociedad de Psicología Industrial-Organizacional analiza cómo la IA está abriendo nuevas posibilidades para la evaluación, el diagnóstico y la intervención organizacional."
+  },
+  {
+    "id": "res-071",
+    "title": "Using AI to Improve Employee Well-Being | MIT Sloan",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "org-psychology-ai",
+    "description_es": "Investigadores del MIT comparten sus hallazgos sobre cómo las herramientas de analítica de IA pueden ayudar a los psicólogos organizacionales a identificar y prevenir el burnout."
+  },
+  {
+    "id": "res-072",
+    "title": "The Ethical Use of AI in Psychological Assessment | APA",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "org-psychology-ai",
+    "description_es": "La American Psychological Association presenta sus directrices para el uso ético de IA en evaluación psicológica organizacional, esencial para todo psicólogo que trabaje con estas herramientas."
+  },
+  {
+    "id": "res-073",
+    "title": "How AI is Transforming Customer Service | Zendesk",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "customer-service-ai",
+    "description_es": "Zendesk comparte datos reales de cómo la IA está mejorando la experiencia del cliente y liberando a los agentes de servicio para manejar casos más complejos y significativos."
+  },
+  {
+    "id": "res-074",
+    "title": "The State of AI in Customer Service | Intercom",
+    "type": "article",
+    "url": "https://www.intercom.com/blog/ai-customer-service/",
+    "skill_area": "customer-service-ai",
+    "description_es": "Intercom publica su investigación anual sobre el estado de la IA en el servicio al cliente, con datos de miles de equipos sobre qué funciona y qué todavía no."
+  },
+  {
+    "id": "res-075",
+    "title": "Designing Human + AI Customer Experiences | Salesforce Connections",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "customer-service-ai",
+    "description_es": "Keynote de Salesforce Connections donde líderes de CX presentan cómo diseñar la colaboración ideal entre agentes humanos y IA para crear experiencias de cliente excepcionales."
+  },
+  {
+    "id": "res-076",
+    "title": "AI Tools for Legal Professionals: A Paralegal's Guide | Clio",
+    "type": "article",
+    "url": "https://www.clio.com/blog/ai-legal-tools/",
+    "skill_area": "paralegal-ai",
+    "description_es": "Clio, el software de gestión legal líder, publica una guía completa de las herramientas de IA más útiles para paralegales, con análisis de casos de uso reales."
+  },
+  {
+    "id": "res-077",
+    "title": "Harvey AI for Legal Professionals | Demo and Review",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "paralegal-ai",
+    "description_es": "Demostración práctica de Harvey, la herramienta de IA más adoptada en los grandes despachos, mostrando cómo transforma el trabajo de investigación y redacción legal."
+  },
+  {
+    "id": "res-078",
+    "title": "The Future of Legal Support Staff in the Age of AI | NALA Conference",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "paralegal-ai",
+    "description_es": "La National Association of Legal Assistants presenta su visión sobre cómo el rol del paralegal evolucionará con la IA y qué habilidades garantizarán la relevancia profesional."
+  },
+  {
+    "id": "res-079",
+    "title": "AI Translation Tools: DeepL, ChatGPT, and Beyond | ProZ",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "translation-ai",
+    "description_es": "Revisión práctica de las principales herramientas de IA para traductores profesionales, comparando calidad, velocidad y casos de uso óptimos para cada una."
+  },
+  {
+    "id": "res-080",
+    "title": "The Future of Translation: AI, Post-Editing, and Human Value | ATA",
+    "type": "article",
+    "url": "https://www.atanet.org/client-assistance/ai-translation-tools/",
+    "skill_area": "translation-ai",
+    "description_es": "La American Translators Association analiza cómo la traducción automática neuronal está cambiando la profesión y qué estrategias permiten a los traductores humanos prosperar."
+  },
+  {
+    "id": "res-081",
+    "title": "Neural Machine Translation: Opportunities for Professional Translators | GALA",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "translation-ai",
+    "description_es": "La Globalization and Localization Association presenta investigación sobre cómo los traductores que adoptan post-edición de IA están aumentando sus ingresos y su productividad."
+  },
+  {
+    "id": "res-082",
+    "title": "Automate Repetitive Data Tasks with Python | Corey Schafer",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=s3lrmBczBTc",
+    "skill_area": "data-automation",
+    "description_es": "Tutorial práctico de Python para automatizar tareas repetitivas de procesamiento de datos, la habilidad que puede transformar el rol de cualquier profesional de data entry."
+  },
+  {
+    "id": "res-083",
+    "title": "RPA for Beginners: Automate Business Processes | UiPath",
+    "type": "article",
+    "url": "https://www.uipath.com/rpa/robotic-process-automation",
+    "skill_area": "data-automation",
+    "description_es": "UiPath explica qué es la automatización de procesos robóticos y cómo los profesionales sin conocimientos técnicos pueden empezar a automatizar tareas de entrada de datos."
+  },
+  {
+    "id": "res-084",
+    "title": "The Automation Mindset: How to Thrive When AI Takes Your Tasks | TEDx",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "data-automation",
+    "description_es": "Charla TEDx sobre cómo los profesionales cuyas tareas están siendo automatizadas pueden reinventarse aprendiendo a trabajar con las mismas herramientas que los están transformando."
+  },
+  {
+    "id": "res-085",
+    "title": "Social Media AI Tools You Need to Know in 2024 | HubSpot",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "community-management-ai",
+    "description_es": "HubSpot repasa las herramientas de IA más efectivas para gestión de redes sociales en 2024, con demostraciones prácticas de cómo ahorran tiempo y mejoran el engagement."
+  },
+  {
+    "id": "res-086",
+    "title": "The Future of Community Management in the Age of AI | CMX Summit",
+    "type": "article",
+    "url": "https://cmxhub.com/ai-community-management/",
+    "skill_area": "community-management-ai",
+    "description_es": "CMX Hub, la comunidad de referencia para Community Managers, analiza cómo la IA está transformando la gestión de comunidades y qué habilidades humanas son más valiosas que nunca."
+  },
+  {
+    "id": "res-087",
+    "title": "Building Thriving Online Communities with AI | Bevy Communities",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "community-management-ai",
+    "description_es": "Líderes de comunidades de las empresas tecnológicas más grandes del mundo comparten cómo usan IA para moderar, personalizar y hacer crecer sus comunidades digitales."
+  },
+  {
+    "id": "res-088",
+    "title": "Microsoft Copilot for Administrative Professionals | Microsoft",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "admin-ai",
+    "description_es": "Tutorial oficial de Microsoft sobre cómo los asistentes administrativos pueden usar Copilot para Microsoft 365 para gestionar emails, reuniones y documentos con mayor eficiencia."
+  },
+  {
+    "id": "res-089",
+    "title": "AI for Administrative Assistants: Tools and Productivity Hacks | IAAP",
+    "type": "article",
+    "url": "https://www.iaap-hq.org/page/AIAdminProfessionals",
+    "skill_area": "admin-ai",
+    "description_es": "La International Association of Administrative Professionals publica su guía de herramientas de IA para profesionales administrativos, con estrategias probadas para mejorar la productividad."
+  },
+  {
+    "id": "res-090",
+    "title": "The Evolving Role of the Administrative Professional in the AI Era | IAAP Summit",
+    "type": "talk",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "skill_area": "admin-ai",
+    "description_es": "Keynote del congreso de la IAAP sobre cómo los asistentes administrativos que adoptan IA están evolucionando hacia roles de coordinación estratégica con mayor responsabilidad e impacto."
+  }
+]
