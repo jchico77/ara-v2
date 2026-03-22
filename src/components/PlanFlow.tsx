@@ -188,10 +188,14 @@ function CompetencyCard({
   block,
   plan,
   index,
+  error,
+  onRetry,
 }: {
   block: FunctionalBlock
   plan: CompetencyPlan | undefined
   index: number
+  error?: boolean
+  onRetry?: () => void
 }) {
   const categoryColor = CATEGORY_COLORS[block.category]
   const categoryLabel = CATEGORY_LABELS[block.category]
@@ -255,6 +259,26 @@ function CompetencyCard({
             <StepItem key={step.type} step={step} isLast={i === plan.steps.length - 1} />
           ))}
         </div>
+      ) : error ? (
+        <div className="text-center py-6">
+          <p className="text-sm mb-3" style={{ color: '#8895B0', fontFamily: 'DM Sans, sans-serif' }}>
+            No se pudo generar el plan
+          </p>
+          {onRetry && (
+            <button
+              onClick={onRetry}
+              className="text-xs font-medium px-4 py-2 rounded-full cursor-pointer"
+              style={{
+                background: 'rgba(110,92,255,0.12)',
+                border: '1px solid rgba(110,92,255,0.25)',
+                color: '#A89BFF',
+                fontFamily: 'DM Sans, sans-serif',
+              }}
+            >
+              Reintentar
+            </button>
+          )}
+        </div>
       ) : (
         <div className="space-y-3">
           {[1, 2, 3].map(i => (
@@ -274,8 +298,27 @@ export function PlanFlow({ slug }: Props) {
   const [profile, setProfile] = useState<RoleProfile | null>(null)
   const [plans, setPlans] = useState<CompetencyPlan[] | null>(null)
   const [loading, setLoading] = useState(true)
+  const [planError, setPlanError] = useState(false)
 
   const roleInput = slug.replace(/-/g, ' ')
+
+  const fetchPlans = async (title: string, blocks: FunctionalBlock[]) => {
+    setPlanError(false)
+    setPlans(null)
+    try {
+      const planRes = await fetch('/api/plan', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title, blocks }),
+      })
+      if (!planRes.ok) throw new Error(`plan ${planRes.status}`)
+      const planData = await planRes.json() as CompetencyPlan[]
+      if (!Array.isArray(planData)) throw new Error('Invalid plan response')
+      setPlans(planData)
+    } catch {
+      setPlanError(true)
+    }
+  }
 
   useEffect(() => {
     let cancelled = false
@@ -297,20 +340,7 @@ export function PlanFlow({ slug }: Props) {
 
         // Step 2: generate plan for top 3 blocks
         const topBlocks = getTopBlocks(data.blocks)
-        try {
-          const planRes = await fetch('/api/plan', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ title: data.title, blocks: topBlocks }),
-          })
-          if (planRes.ok) {
-            const planData = await planRes.json() as CompetencyPlan[]
-            if (!cancelled) setPlans(planData)
-          }
-        } catch {
-          // Plan generation failed — cards stay in skeleton state
-          // but the profile is still shown
-        }
+        await fetchPlans(data.title, topBlocks)
       } catch {
         if (cancelled) return
         // Fallback to catalog
@@ -433,6 +463,8 @@ export function PlanFlow({ slug }: Props) {
                     block={block}
                     plan={plan}
                     index={i}
+                    error={planError}
+                    onRetry={() => fetchPlans(profile.title, topBlocks)}
                   />
                 )
               })}

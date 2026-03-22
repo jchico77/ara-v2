@@ -2,6 +2,9 @@ import { NextResponse } from 'next/server'
 import { llm } from '@/lib/llm'
 import type { FunctionalBlock } from '@/lib/types'
 
+// Edge runtime: 30s timeout on Hobby plan (vs 10s for Node serverless)
+export const runtime = 'edge'
+
 export interface PlanStep {
   type: 'entiende' | 'pruebalo' | 'dominalo'
   title: string
@@ -21,7 +24,6 @@ const cache = new Map<string, { data: CompetencyPlan[]; ts: number }>()
 const CACHE_TTL = 1000 * 60 * 60
 
 export async function POST(request: Request) {
-  // Parse body early so it's available in catch
   let parsedBlocks: FunctionalBlock[] = []
   let title = ''
 
@@ -40,38 +42,22 @@ export async function POST(request: Request) {
       return NextResponse.json(cached.data)
     }
 
-    const blocksForPrompt = parsedBlocks.map(b => ({
-      id: b.id,
-      name: b.name,
-      category: b.category,
-      score: b.score,
-      direction: b.direction,
-    }))
+    const system = `Genera un plan de acción profesional para adaptarse a la IA. Para cada competencia, genera 3 pasos. Responde SOLO JSON válido, sin markdown.
 
-    const system = `Eres un coach de desarrollo profesional especializado en adaptación a la IA. Genera un plan de acción de 3 pasos para cada competencia profesional con alto impacto de IA.
+Formato exacto:
+[{"blockId":"id","steps":[
+{"type":"entiende","title":"máx 7 palabras","description":"2 frases sobre cómo la IA cambia esta área"},
+{"type":"pruebalo","title":"máx 7 palabras","description":"ejercicio concreto","tool":"Claude|ChatGPT|Perplexity|GitHub Copilot|Notion AI","prompt":"prompt listo para copiar, máx 100 chars"},
+{"type":"dominalo","title":"máx 7 palabras","description":"qué formación buscar","courseQuery":"término de búsqueda","platform":"Coursera|Udemy|LinkedIn Learning"}
+]}]
 
-Para cada bloque funcional, crea exactamente estos 3 pasos:
-1. "entiende": Explica en 2 frases cómo la IA está cambiando esta área y qué debe cambiar el profesional
-2. "pruebalo": Un ejercicio concreto con una herramienta específica. Incluye un prompt listo para copiar
-3. "dominalo": Recomienda el tipo de formación y el término de búsqueda exacto para encontrar el curso
-
-REGLAS DE TONO:
-- Segunda persona: "Tu proceso de...", "Cuando uses..."
-- Específico y accionable, sin teoría abstracta
-- El campo "prompt" en pruebalo: prompt listo para copiar al portapapeles (máx 120 chars)
-- courseQuery: término de búsqueda específico para encontrar el curso ideal
-- Elige tool entre: Claude, ChatGPT, Perplexity, Midjourney, Runway, Notion AI, GitHub Copilot
-- Elige platform entre: Coursera, Udemy, LinkedIn Learning
-
-Responde SOLO un JSON array, sin markdown ni explicaciones:
-[{"blockId":"string","steps":[{"type":"entiende","title":"5-7 palabras","description":"2 frases"},{"type":"pruebalo","title":"5-7 palabras","description":"descripción","tool":"Claude","prompt":"prompt listo para copiar"},{"type":"dominalo","title":"5-7 palabras","description":"descripción","courseQuery":"término específico","platform":"Coursera"}]}]`
+Reglas: segunda persona, específico al rol, accionable. Cada plan debe ser ÚNICO para la competencia concreta, no genérico.`
 
     const user = `Rol: ${title}
+Competencias (id, nombre, categoría, dirección, score):
+${parsedBlocks.map(b => `- id:${b.id} "${b.name}" ${b.category} ${b.direction} ${b.score}/100`).join('\n')}`
 
-Competencias a desarrollar:
-${JSON.stringify(blocksForPrompt, null, 2)}`
-
-    const raw = await llm(system, user, { maxTokens: 4500 })
+    const raw = await llm(system, user, { maxTokens: 2500 })
 
     const cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim()
     const plans = JSON.parse(cleaned) as CompetencyPlan[]
@@ -80,36 +66,9 @@ ${JSON.stringify(blocksForPrompt, null, 2)}`
     return NextResponse.json(plans)
   } catch (err) {
     console.error('Plan API error:', err)
-
-    // Fallback: generate static plans so the user always sees something
-    const fallbackPlans = generateFallbackPlans(parsedBlocks)
-    return NextResponse.json(fallbackPlans)
+    return NextResponse.json(
+      { error: 'Plan generation failed', detail: err instanceof Error ? err.message : 'Unknown error' },
+      { status: 500 }
+    )
   }
-}
-
-function generateFallbackPlans(blocks: FunctionalBlock[]): CompetencyPlan[] {
-  return blocks.map(block => ({
-    blockId: block.id,
-    steps: [
-      {
-        type: 'entiende' as const,
-        title: `Cómo la IA transforma ${block.name.toLowerCase()}`,
-        description: `La inteligencia artificial está cambiando cómo se aborda ${block.name.toLowerCase()}. Investiga qué tareas ya pueden automatizarse y cuáles requieren tu criterio profesional.`,
-      },
-      {
-        type: 'pruebalo' as const,
-        title: `Experimenta con IA en ${block.name.toLowerCase()}`,
-        description: `Usa una herramienta de IA para resolver un caso real de tu día a día relacionado con ${block.name.toLowerCase()}.`,
-        tool: 'Claude',
-        prompt: `Ayúdame a mejorar mi proceso de ${block.name.toLowerCase()} paso a paso`,
-      },
-      {
-        type: 'dominalo' as const,
-        title: `Formación especializada en IA aplicada`,
-        description: `Busca formación que combine ${block.name.toLowerCase()} con herramientas de inteligencia artificial para profesionales.`,
-        courseQuery: `${block.name} artificial intelligence`,
-        platform: 'Coursera' as const,
-      },
-    ],
-  }))
 }
