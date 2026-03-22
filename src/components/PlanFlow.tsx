@@ -297,15 +297,20 @@ export function PlanFlow({ slug }: Props) {
 
         // Step 2: generate plan for top 3 blocks
         const topBlocks = getTopBlocks(data.blocks)
-        const planRes = await fetch('/api/plan', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ title: data.title, blocks: topBlocks }),
-        })
-        if (!planRes.ok) throw new Error('plan failed')
-        const planData = await planRes.json() as CompetencyPlan[]
-        if (cancelled) return
-        setPlans(planData)
+        try {
+          const planRes = await fetch('/api/plan', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ title: data.title, blocks: topBlocks }),
+          })
+          if (planRes.ok) {
+            const planData = await planRes.json() as CompetencyPlan[]
+            if (!cancelled) setPlans(planData)
+          }
+        } catch {
+          // Plan generation failed — cards stay in skeleton state
+          // but the profile is still shown
+        }
       } catch {
         if (cancelled) return
         // Fallback to catalog

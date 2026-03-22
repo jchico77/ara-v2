@@ -21,22 +21,26 @@ const cache = new Map<string, { data: CompetencyPlan[]; ts: number }>()
 const CACHE_TTL = 1000 * 60 * 60
 
 export async function POST(request: Request) {
+  // Parse body early so it's available in catch
+  let parsedBlocks: FunctionalBlock[] = []
+  let title = ''
+
   try {
     const body = await request.json()
-    const title = (body.title as string)?.trim()
-    const blocks = body.blocks as FunctionalBlock[]
+    title = (body.title as string)?.trim()
+    parsedBlocks = body.blocks as FunctionalBlock[]
 
-    if (!title || !blocks?.length) {
+    if (!title || !parsedBlocks?.length) {
       return NextResponse.json({ error: 'title and blocks are required' }, { status: 400 })
     }
 
-    const cacheKey = `${title.toLowerCase()}-${blocks.map(b => b.id).join(',')}`
+    const cacheKey = `${title.toLowerCase()}-${parsedBlocks.map(b => b.id).join(',')}`
     const cached = cache.get(cacheKey)
     if (cached && Date.now() - cached.ts < CACHE_TTL) {
       return NextResponse.json(cached.data)
     }
 
-    const blocksForPrompt = blocks.map(b => ({
+    const blocksForPrompt = parsedBlocks.map(b => ({
       id: b.id,
       name: b.name,
       category: b.category,
@@ -78,9 +82,7 @@ ${JSON.stringify(blocksForPrompt, null, 2)}`
     console.error('Plan API error:', err)
 
     // Fallback: generate static plans so the user always sees something
-    const body = await request.clone().json().catch(() => null)
-    const fallbackBlocks = (body?.blocks as FunctionalBlock[]) ?? []
-    const fallbackPlans = generateFallbackPlans(fallbackBlocks)
+    const fallbackPlans = generateFallbackPlans(parsedBlocks)
     return NextResponse.json(fallbackPlans)
   }
 }
