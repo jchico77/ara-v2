@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { mapRoleToCatalog } from '@/lib/mapper'
 import { narrateBlocks, applyNarration } from '@/lib/narrator'
+import { generateDynamicProfile } from '@/lib/dynamic-profile'
 import { findRole } from '@/lib/catalog'
 import type { RoleProfile, FunctionalBlock } from '@/lib/types'
 
@@ -31,28 +32,40 @@ export async function POST(request: Request) {
     // Step 1: Map input to catalog role(s)
     const mapping = await mapRoleToCatalog(roleInput)
 
-    // Step 2: Get catalog data (weighted merge if multiple matches)
     let profile: RoleProfile
-    if (mapping.matches.length === 1) {
-      profile = findRole(mapping.matches[0].slug)
+
+    if (mapping.is_fallback) {
+      // Role not in catalog — generate a full profile dynamically via Claude
+      try {
+        profile = await generateDynamicProfile(roleInput)
+      } catch (dynErr) {
+        console.error('Dynamic profile generation failed:', dynErr)
+        // Last resort: use catalog[0] but at least show the right title
+        profile = { ...findRole(mapping.matches[0].slug), title: titleCase(roleInput) }
+      }
     } else {
-      profile = mergeProfiles(mapping.matches)
-    }
+      // Step 2: Get catalog data (weighted merge if multiple matches)
+      if (mapping.matches.length === 1) {
+        profile = findRole(mapping.matches[0].slug)
+      } else {
+        profile = mergeProfiles(mapping.matches)
+      }
 
-    // Override the title with a display-friendly version of the input
-    profile = { ...profile, title: titleCase(roleInput) }
+      // Override the title with a display-friendly version of the input
+      profile = { ...profile, title: titleCase(roleInput) }
 
-    // Step 3: Personalize narratives via LLM
-    try {
-      const narrated = await narrateBlocks({
-        title: profile.title,
-        seniority: mapping.detected_seniority,
-        sector: mapping.detected_sector,
-        blocks: profile.blocks,
-      })
-      profile = applyNarration(profile, narrated)
-    } catch {
-      // If narrator fails, keep the pre-calculated narratives from catalog
+      // Step 3: Personalize narratives via LLM
+      try {
+        const narrated = await narrateBlocks({
+          title: profile.title,
+          seniority: mapping.detected_seniority,
+          sector: mapping.detected_sector,
+          blocks: profile.blocks,
+        })
+        profile = applyNarration(profile, narrated)
+      } catch {
+        // If narrator fails, keep the pre-calculated narratives from catalog
+      }
     }
 
     // Step 4: Generate slug for the result URL

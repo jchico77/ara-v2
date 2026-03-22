@@ -5,6 +5,7 @@ interface MapperResult {
   matches: { slug: string; weight: number }[]
   detected_seniority: string | null
   detected_sector: string | null
+  is_fallback: boolean
 }
 
 export async function mapRoleToCatalog(roleInput: string): Promise<MapperResult> {
@@ -71,6 +72,7 @@ ${catalogList}`
       matches: validMatches,
       detected_seniority: obj.detected_seniority ?? obj.seniority ?? null,
       detected_sector: obj.detected_sector ?? obj.sector ?? null,
+      is_fallback: false,
     }
   } catch {
     return fallbackMatch(roleInput, slugs)
@@ -92,5 +94,6 @@ function fallbackMatch(roleInput: string, slugs: string[]): MapperResult {
     matches: [{ slug: directMatch ?? slugs[0], weight: 1.0 }],
     detected_seniority: null,
     detected_sector: null,
+    is_fallback: !directMatch,
   }
 }

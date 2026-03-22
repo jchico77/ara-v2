@@ -51,7 +51,7 @@ Responde SOLO un JSON array, sin markdown ni explicaciones:
 Bloques a describir:
 ${JSON.stringify(blocksForPrompt, null, 2)}`
 
-  const raw = await llm(system, user, { maxTokens: 1024 })
+  const raw = await llm(system, user, { maxTokens: 3072 })
 
   try {
     const cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim()

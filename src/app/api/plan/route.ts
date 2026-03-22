@@ -67,7 +67,7 @@ Responde SOLO un JSON array, sin markdown ni explicaciones:
 Competencias a desarrollar:
 ${JSON.stringify(blocksForPrompt, null, 2)}`
 
-    const raw = await llm(system, user, { maxTokens: 1500 })
+    const raw = await llm(system, user, { maxTokens: 4500 })
 
     const cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim()
     const plans = JSON.parse(cleaned) as CompetencyPlan[]
@@ -76,6 +76,38 @@ ${JSON.stringify(blocksForPrompt, null, 2)}`
     return NextResponse.json(plans)
   } catch (err) {
     console.error('Plan API error:', err)
-    return NextResponse.json({ error: 'Error generating plan' }, { status: 500 })
+
+    // Fallback: generate static plans so the user always sees something
+    const body = await request.clone().json().catch(() => null)
+    const fallbackBlocks = (body?.blocks as FunctionalBlock[]) ?? []
+    const fallbackPlans = generateFallbackPlans(fallbackBlocks)
+    return NextResponse.json(fallbackPlans)
   }
+}
+
+function generateFallbackPlans(blocks: FunctionalBlock[]): CompetencyPlan[] {
+  return blocks.map(block => ({
+    blockId: block.id,
+    steps: [
+      {
+        type: 'entiende' as const,
+        title: `Cómo la IA transforma ${block.name.toLowerCase()}`,
+        description: `La inteligencia artificial está cambiando cómo se aborda ${block.name.toLowerCase()}. Investiga qué tareas ya pueden automatizarse y cuáles requieren tu criterio profesional.`,
+      },
+      {
+        type: 'pruebalo' as const,
+        title: `Experimenta con IA en ${block.name.toLowerCase()}`,
+        description: `Usa una herramienta de IA para resolver un caso real de tu día a día relacionado con ${block.name.toLowerCase()}.`,
+        tool: 'Claude',
+        prompt: `Ayúdame a mejorar mi proceso de ${block.name.toLowerCase()} paso a paso`,
+      },
+      {
+        type: 'dominalo' as const,
+        title: `Formación especializada en IA aplicada`,
+        description: `Busca formación que combine ${block.name.toLowerCase()} con herramientas de inteligencia artificial para profesionales.`,
+        courseQuery: `${block.name} artificial intelligence`,
+        platform: 'Coursera' as const,
+      },
+    ],
+  }))
 }
